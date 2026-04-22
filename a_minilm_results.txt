@@ -1,0 +1,400 @@
+================================================================================
+  EXP-09 RESULTS — all-MiniLM-L6-v2 (General baseline)
+  HuggingFace: sentence-transformers/all-MiniLM-L6-v2
+  Mean Precision@5: 0.2333  (23.3%)
+  Generated: 2026-04-22 13:32:31
+================================================================================
+
+----------------------------------------------------------------------
+  [Q01] P@5=0.20  ✓ HIT 
+  Q: What is Net Interest Margin (NIM) and what range is considered
+     healthy for retail banks?
+  Relevant: DOC-1
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-1] Introduction to Commercial Banking  (dist=0.2556)
+    2. ○ [DOC-7] Retail Banking Products  (dist=0.4506)
+    3. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.5009)
+    4. ○ [DOC-12] Financial Statement Analysis  (dist=0.5273)
+    5. ○ [DOC-10] Financial Ratios and Analysis  (dist=0.5277)
+
+----------------------------------------------------------------------
+  [Q02] P@5=0.40  ✓ HIT 
+  Q: What are the Basel III minimum Tier 1 capital ratio and total
+     capital ratio requirements?
+  Relevant: DOC-1, DOC-6
+  Retrieved (rank 1→5):
+    1. ○ [DOC-10] Financial Ratios and Analysis  (dist=0.3705)
+    2. ◉ [DOC-6] Regulatory Framework and Compliance  (dist=0.3949)
+    3. ◉ [DOC-1] Introduction to Commercial Banking  (dist=0.4728)
+    4. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.4838)
+    5. ○ [DOC-13] Risk Management Frameworks  (dist=0.574)
+
+----------------------------------------------------------------------
+  [Q03] P@5=0.20  ✓ HIT 
+  Q: Define Non-Performing Loans (NPLs) and the threshold NPL ratio
+     that signals significant credit quality problems.
+  Relevant: DOC-2
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-2] Credit Risk Management  (dist=0.336)
+    2. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.4987)
+    3. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.5735)
+    4. ○ [DOC-6] Regulatory Framework and Compliance  (dist=0.6172)
+    5. ○ [DOC-10] Financial Ratios and Analysis  (dist=0.6182)
+
+----------------------------------------------------------------------
+  [Q04] P@5=0.20  ✓ HIT 
+  Q: Explain the Expected Loss (EL) formula components: PD, LGD, and
+     EAD.
+  Relevant: DOC-2
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-2] Credit Risk Management  (dist=0.5301)
+    2. ○ [DOC-5] Derivatives and Risk Management  (dist=0.7226)
+    3. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.7228)
+    4. ○ [DOC-8] Corporate Finance and Valuation  (dist=0.7496)
+    5. ○ [DOC-13] Risk Management Frameworks  (dist=0.7576)
+
+----------------------------------------------------------------------
+  [Q05] P@5=0.40  ✓ HIT 
+  Q: What is the Liquidity Coverage Ratio (LCR) and what assets qualify
+     as Level 1 HQLA?
+  Relevant: DOC-3, DOC-6
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.3484)
+    2. ○ [DOC-10] Financial Ratios and Analysis  (dist=0.3865)
+    3. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.5789)
+    4. ◉ [DOC-6] Regulatory Framework and Compliance  (dist=0.5992)
+    5. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.6004)
+
+----------------------------------------------------------------------
+  [Q06] P@5=0.20  ✓ HIT 
+  Q: Describe the Net Stable Funding Ratio (NSFR) and explain why
+     retail deposits have high ASF factors.
+  Relevant: DOC-3
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.3541)
+    2. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.4979)
+    3. ○ [DOC-7] Retail Banking Products  (dist=0.5239)
+    4. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.5258)
+    5. ○ [DOC-10] Financial Ratios and Analysis  (dist=0.5401)
+
+----------------------------------------------------------------------
+  [Q07] P@5=0.20  ✓ HIT 
+  Q: What is the difference between firm commitment underwriting and
+     best efforts underwriting in an IPO?
+  Relevant: DOC-4
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-4] Investment Banking and Capital Markets  (dist=0.5437)
+    2. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.7431)
+    3. ○ [DOC-8] Corporate Finance and Valuation  (dist=0.7926)
+    4. ○ [DOC-10] Financial Ratios and Analysis  (dist=0.7933)
+    5. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.7999)
+
+----------------------------------------------------------------------
+  [Q08] P@5=0.20  ✓ HIT 
+  Q: How are Collateralized Debt Obligations (CDOs) structured and what
+     are the different tranches?
+  Relevant: DOC-4
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-4] Investment Banking and Capital Markets  (dist=0.4067)
+    2. ○ [DOC-5] Derivatives and Risk Management  (dist=0.5431)
+    3. ○ [DOC-2] Credit Risk Management  (dist=0.6315)
+    4. ○ [DOC-9] Fixed Income and Bond Markets  (dist=0.6809)
+    5. ○ [DOC-8] Corporate Finance and Valuation  (dist=0.6882)
+
+----------------------------------------------------------------------
+  [Q09] P@5=0.20  ✓ HIT 
+  Q: Explain how an Interest Rate Swap works and why a company with
+     floating-rate debt might enter one.
+  Relevant: DOC-5
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-5] Derivatives and Risk Management  (dist=0.5216)
+    2. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.6664)
+    3. ○ [DOC-8] Corporate Finance and Valuation  (dist=0.697)
+    4. ○ [DOC-11] Monetary Policy and Central Banking  (dist=0.7194)
+    5. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.7258)
+
+----------------------------------------------------------------------
+  [Q10] P@5=0.20  ✓ HIT 
+  Q: What is Value at Risk (VaR) and what are its three main
+     calculation methodologies?
+  Relevant: DOC-5
+  Retrieved (rank 1→5):
+    1. ○ [DOC-13] Risk Management Frameworks  (dist=0.5724)
+    2. ○ [DOC-2] Credit Risk Management  (dist=0.6157)
+    3. ◉ [DOC-5] Derivatives and Risk Management  (dist=0.6509)
+    4. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.6535)
+    5. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.6566)
+
+----------------------------------------------------------------------
+  [Q11] P@5=0.20  ✓ HIT 
+  Q: What are the three pillars of the Basel II framework?
+  Relevant: DOC-6
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-6] Regulatory Framework and Compliance  (dist=0.5226)
+    2. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.5706)
+    3. ○ [DOC-10] Financial Ratios and Analysis  (dist=0.5856)
+    4. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.6389)
+    5. ○ [DOC-13] Risk Management Frameworks  (dist=0.6994)
+
+----------------------------------------------------------------------
+  [Q12] P@5=0.20  ✓ HIT 
+  Q: What does the Volcker Rule prohibit and under which regulation was
+     it introduced?
+  Relevant: DOC-6
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-6] Regulatory Framework and Compliance  (dist=0.7503)
+    2. ○ [DOC-11] Monetary Policy and Central Banking  (dist=0.8728)
+    3. ○ [DOC-5] Derivatives and Risk Management  (dist=0.8802)
+    4. ○ [DOC-13] Risk Management Frameworks  (dist=0.8917)
+    5. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.9115)
+
+----------------------------------------------------------------------
+  [Q13] P@5=0.00  ✗ MISS
+  Q: Explain IFRS 9 Expected Credit Loss (ECL) model and the three
+     stages of classification.
+  Relevant: DOC-6
+  Retrieved (rank 1→5):
+    1. ○ [DOC-2] Credit Risk Management  (dist=0.4706)
+    2. ○ [DOC-13] Risk Management Frameworks  (dist=0.4947)
+    3. ○ [DOC-12] Financial Statement Analysis  (dist=0.5962)
+    4. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.6073)
+    5. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.608)
+
+----------------------------------------------------------------------
+  [Q14] P@5=0.20  ✓ HIT 
+  Q: How does deposit insurance work in the U.S. and what is the FDIC
+     coverage limit?
+  Relevant: DOC-7
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-7] Retail Banking Products  (dist=0.4147)
+    2. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.594)
+    3. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.6686)
+    4. ○ [DOC-11] Monetary Policy and Central Banking  (dist=0.6848)
+    5. ○ [DOC-6] Regulatory Framework and Compliance  (dist=0.7166)
+
+----------------------------------------------------------------------
+  [Q15] P@5=0.20  ✓ HIT 
+  Q: What is Open Banking and which EU regulation mandated it? How has
+     it affected retail banking?
+  Relevant: DOC-7
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-7] Retail Banking Products  (dist=0.3983)
+    2. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.5547)
+    3. ○ [DOC-6] Regulatory Framework and Compliance  (dist=0.5655)
+    4. ○ [DOC-14] Trade Finance and International Banking  (dist=0.6041)
+    5. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.6215)
+
+----------------------------------------------------------------------
+  [Q16] P@5=0.20  ✓ HIT 
+  Q: Write out the WACC formula and explain each component including
+     cost of equity via CAPM.
+  Relevant: DOC-8
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-8] Corporate Finance and Valuation  (dist=0.3743)
+    2. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.5446)
+    3. ○ [DOC-10] Financial Ratios and Analysis  (dist=0.5563)
+    4. ○ [DOC-12] Financial Statement Analysis  (dist=0.6081)
+    5. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.6297)
+
+----------------------------------------------------------------------
+  [Q17] P@5=0.20  ✓ HIT 
+  Q: What is the Cash Conversion Cycle (CCC) and how is it calculated?
+  Relevant: DOC-8
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-8] Corporate Finance and Valuation  (dist=0.4883)
+    2. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.5544)
+    3. ○ [DOC-12] Financial Statement Analysis  (dist=0.6013)
+    4. ○ [DOC-10] Financial Ratios and Analysis  (dist=0.605)
+    5. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.6507)
+
+----------------------------------------------------------------------
+  [Q18] P@5=0.40  ✓ HIT 
+  Q: How does Discounted Cash Flow (DCF) valuation work, and what role
+     does WACC play as a discount rate?
+  Relevant: DOC-4, DOC-8
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-4] Investment Banking and Capital Markets  (dist=0.4811)
+    2. ◉ [DOC-8] Corporate Finance and Valuation  (dist=0.5431)
+    3. ○ [DOC-5] Derivatives and Risk Management  (dist=0.6701)
+    4. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.6778)
+    5. ○ [DOC-10] Financial Ratios and Analysis  (dist=0.6921)
+
+----------------------------------------------------------------------
+  [Q19] P@5=0.20  ✓ HIT 
+  Q: What is bond duration and how does modified duration relate to
+     interest rate sensitivity?
+  Relevant: DOC-9
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-9] Fixed Income and Bond Markets  (dist=0.5117)
+    2. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.7111)
+    3. ○ [DOC-2] Credit Risk Management  (dist=0.714)
+    4. ○ [DOC-5] Derivatives and Risk Management  (dist=0.7162)
+    5. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.7391)
+
+----------------------------------------------------------------------
+  [Q20] P@5=0.20  ✓ HIT 
+  Q: Explain the difference between investment-grade bonds and high-
+     yield bonds, including typical credit spread ranges.
+  Relevant: DOC-9
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-9] Fixed Income and Bond Markets  (dist=0.3938)
+    2. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.6441)
+    3. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.6556)
+    4. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.704)
+    5. ○ [DOC-2] Credit Risk Management  (dist=0.7044)
+
+----------------------------------------------------------------------
+  [Q21] P@5=0.20  ✓ HIT 
+  Q: What does the Cost-to-Income (CIR) ratio measure for banks and
+     what is considered an efficient level?
+  Relevant: DOC-10
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-10] Financial Ratios and Analysis  (dist=0.3335)
+    2. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.3635)
+    3. ○ [DOC-8] Corporate Finance and Valuation  (dist=0.5153)
+    4. ○ [DOC-12] Financial Statement Analysis  (dist=0.5516)
+    5. ○ [DOC-7] Retail Banking Products  (dist=0.5642)
+
+----------------------------------------------------------------------
+  [Q22] P@5=0.40  ✓ HIT 
+  Q: Explain the DuPont decomposition of Return on Equity (ROE) and
+     what each component reveals.
+  Relevant: DOC-10, DOC-12
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-12] Financial Statement Analysis  (dist=0.5053)
+    2. ◉ [DOC-10] Financial Ratios and Analysis  (dist=0.5522)
+    3. ○ [DOC-8] Corporate Finance and Valuation  (dist=0.5777)
+    4. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.6266)
+    5. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.7115)
+
+----------------------------------------------------------------------
+  [Q23] P@5=0.20  ✓ HIT 
+  Q: What is Quantitative Easing (QE) and through what channels does it
+     work to stimulate the economy?
+  Relevant: DOC-11
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-11] Monetary Policy and Central Banking  (dist=0.4034)
+    2. ○ [DOC-9] Fixed Income and Bond Markets  (dist=0.7202)
+    3. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.7573)
+    4. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.7775)
+    5. ○ [DOC-6] Regulatory Framework and Compliance  (dist=0.779)
+
+----------------------------------------------------------------------
+  [Q24] P@5=0.20  ✓ HIT 
+  Q: Describe the Taylor Rule and how it guides central bank interest
+     rate setting relative to inflation and output gaps.
+  Relevant: DOC-11
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-11] Monetary Policy and Central Banking  (dist=0.4415)
+    2. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.5979)
+    3. ○ [DOC-8] Corporate Finance and Valuation  (dist=0.6631)
+    4. ○ [DOC-6] Regulatory Framework and Compliance  (dist=0.693)
+    5. ○ [DOC-10] Financial Ratios and Analysis  (dist=0.6987)
+
+----------------------------------------------------------------------
+  [Q25] P@5=0.20  ✓ HIT 
+  Q: What is the Beneish M-Score and what does it detect in financial
+     statements?
+  Relevant: DOC-12
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-12] Financial Statement Analysis  (dist=0.3576)
+    2. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.5507)
+    3. ○ [DOC-13] Risk Management Frameworks  (dist=0.5891)
+    4. ○ [DOC-8] Corporate Finance and Valuation  (dist=0.6339)
+    5. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.6347)
+
+----------------------------------------------------------------------
+  [Q26] P@5=0.40  ✓ HIT 
+  Q: Explain DuPont analysis and how it reveals whether ROE improvement
+     is driven by margins, efficiency, or leverage.
+  Relevant: DOC-12, DOC-10
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-12] Financial Statement Analysis  (dist=0.4039)
+    2. ◉ [DOC-10] Financial Ratios and Analysis  (dist=0.4767)
+    3. ○ [DOC-8] Corporate Finance and Valuation  (dist=0.5519)
+    4. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.6844)
+    5. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.7035)
+
+----------------------------------------------------------------------
+  [Q27] P@5=0.20  ✓ HIT 
+  Q: What is Credit Valuation Adjustment (CVA) and how does it relate
+     to counterparty credit risk in derivatives?
+  Relevant: DOC-13
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-13] Risk Management Frameworks  (dist=0.525)
+    2. ○ [DOC-2] Credit Risk Management  (dist=0.5621)
+    3. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.6369)
+    4. ○ [DOC-5] Derivatives and Risk Management  (dist=0.6527)
+    5. ○ [DOC-14] Trade Finance and International Banking  (dist=0.6804)
+
+----------------------------------------------------------------------
+  [Q28] P@5=0.40  ✓ HIT 
+  Q: Explain operational risk under Basel III and identify the three
+     approaches banks use to calculate capital requirements.
+  Relevant: DOC-13, DOC-6
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-6] Regulatory Framework and Compliance  (dist=0.3786)
+    2. ○ [DOC-10] Financial Ratios and Analysis  (dist=0.4146)
+    3. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.4403)
+    4. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.4409)
+    5. ◉ [DOC-13] Risk Management Frameworks  (dist=0.5043)
+
+----------------------------------------------------------------------
+  [Q29] P@5=0.20  ✓ HIT 
+  Q: How does a Letter of Credit (LC) work in trade finance and what is
+     the role of a confirming bank?
+  Relevant: DOC-14
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-14] Trade Finance and International Banking  (dist=0.3893)
+    2. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.6058)
+    3. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.6184)
+    4. ○ [DOC-13] Risk Management Frameworks  (dist=0.6285)
+    5. ○ [DOC-6] Regulatory Framework and Compliance  (dist=0.6361)
+
+----------------------------------------------------------------------
+  [Q30] P@5=0.20  ✓ HIT 
+  Q: What is the EU Taxonomy for Sustainable Activities and how does
+     SFDR classify investment funds under Articles 6, 8, and 9?
+  Relevant: DOC-15
+  Retrieved (rank 1→5):
+    1. ◉ [DOC-15] ESG and Sustainable Finance  (dist=0.4806)
+    2. ○ [DOC-10] Financial Ratios and Analysis  (dist=0.6181)
+    3. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.6186)
+    4. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.6563)
+    5. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.6632)
+
+================================================================================
+  PER-QUESTION PRECISION SUMMARY
+================================================================================
+  Q01  [██░░░░░░░░]  0.20
+  Q02  [████░░░░░░]  0.40
+  Q03  [██░░░░░░░░]  0.20
+  Q04  [██░░░░░░░░]  0.20
+  Q05  [████░░░░░░]  0.40
+  Q06  [██░░░░░░░░]  0.20
+  Q07  [██░░░░░░░░]  0.20
+  Q08  [██░░░░░░░░]  0.20
+  Q09  [██░░░░░░░░]  0.20
+  Q10  [██░░░░░░░░]  0.20
+  Q11  [██░░░░░░░░]  0.20
+  Q12  [██░░░░░░░░]  0.20
+  Q13  [░░░░░░░░░░]  0.00
+  Q14  [██░░░░░░░░]  0.20
+  Q15  [██░░░░░░░░]  0.20
+  Q16  [██░░░░░░░░]  0.20
+  Q17  [██░░░░░░░░]  0.20
+  Q18  [████░░░░░░]  0.40
+  Q19  [██░░░░░░░░]  0.20
+  Q20  [██░░░░░░░░]  0.20
+  Q21  [██░░░░░░░░]  0.20
+  Q22  [████░░░░░░]  0.40
+  Q23  [██░░░░░░░░]  0.20
+  Q24  [██░░░░░░░░]  0.20
+  Q25  [██░░░░░░░░]  0.20
+  Q26  [████░░░░░░]  0.40
+  Q27  [██░░░░░░░░]  0.20
+  Q28  [████░░░░░░]  0.40
+  Q29  [██░░░░░░░░]  0.20
+  Q30  [██░░░░░░░░]  0.20
+
+  MEAN P@5 = 0.2333

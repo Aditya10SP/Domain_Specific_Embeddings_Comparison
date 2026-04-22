@@ -1,0 +1,885 @@
+{
+  "model_key": "C_FinBERT",
+  "model_label": "yiyanghkust/finbert-tone (FinBERT)",
+  "hf_name": "yiyanghkust/finbert-tone",
+  "mean_precision_at_5": 0.1733,
+  "timestamp": "2026-04-22T13:33:31.931215",
+  "results": [
+    {
+      "question_id": "Q01",
+      "question_text": "What is Net Interest Margin (NIM) and what range is considered healthy for retail banks?",
+      "relevant_docs": [
+        "DOC-1"
+      ],
+      "retrieved_ids": [
+        "DOC-1",
+        "DOC-8",
+        "DOC-4",
+        "DOC-11",
+        "DOC-7"
+      ],
+      "retrieved_titles": [
+        "Introduction to Commercial Banking",
+        "Corporate Finance and Valuation",
+        "Investment Banking and Capital Markets",
+        "Monetary Policy and Central Banking",
+        "Retail Banking Products"
+      ],
+      "distances": [
+        0.295,
+        0.2998,
+        0.3015,
+        0.3085,
+        0.3118
+      ],
+      "precision_at_5": 0.2
+    },
+    {
+      "question_id": "Q02",
+      "question_text": "What are the Basel III minimum Tier 1 capital ratio and total capital ratio requirements?",
+      "relevant_docs": [
+        "DOC-1",
+        "DOC-6"
+      ],
+      "retrieved_ids": [
+        "DOC-1",
+        "DOC-6",
+        "DOC-10",
+        "DOC-3",
+        "DOC-8"
+      ],
+      "retrieved_titles": [
+        "Introduction to Commercial Banking",
+        "Regulatory Framework and Compliance",
+        "Financial Ratios and Analysis",
+        "Liquidity Risk and Asset-Liability Management",
+        "Corporate Finance and Valuation"
+      ],
+      "distances": [
+        0.3202,
+        0.365,
+        0.4132,
+        0.4191,
+        0.4441
+      ],
+      "precision_at_5": 0.4
+    },
+    {
+      "question_id": "Q03",
+      "question_text": "Define Non-Performing Loans (NPLs) and the threshold NPL ratio that signals significant credit quality problems.",
+      "relevant_docs": [
+        "DOC-2"
+      ],
+      "retrieved_ids": [
+        "DOC-2",
+        "DOC-3",
+        "DOC-13",
+        "DOC-12",
+        "DOC-10"
+      ],
+      "retrieved_titles": [
+        "Credit Risk Management",
+        "Liquidity Risk and Asset-Liability Management",
+        "Risk Management Frameworks",
+        "Financial Statement Analysis",
+        "Financial Ratios and Analysis"
+      ],
+      "distances": [
+        0.2025,
+        0.3111,
+        0.3167,
+        0.3383,
+        0.3457
+      ],
+      "precision_at_5": 0.2
+    },
+    {
+      "question_id": "Q04",
+      "question_text": "Explain the Expected Loss (EL) formula components: PD, LGD, and EAD.",
+      "relevant_docs": [
+        "DOC-2"
+      ],
+      "retrieved_ids": [
+        "DOC-13",
+        "DOC-14",
+        "DOC-8",
+        "DOC-12",
+        "DOC-15"
+      ],
+      "retrieved_titles": [
+        "Risk Management Frameworks",
+        "Trade Finance and International Banking",
+        "Corporate Finance and Valuation",
+        "Financial Statement Analysis",
+        "ESG and Sustainable Finance"
+      ],
+      "distances": [
+        0.2196,
+        0.2211,
+        0.2267,
+        0.2395,
+        0.2447
+      ],
+      "precision_at_5": 0.0
+    },
+    {
+      "question_id": "Q05",
+      "question_text": "What is the Liquidity Coverage Ratio (LCR) and what assets qualify as Level 1 HQLA?",
+      "relevant_docs": [
+        "DOC-3",
+        "DOC-6"
+      ],
+      "retrieved_ids": [
+        "DOC-8",
+        "DOC-1",
+        "DOC-3",
+        "DOC-4",
+        "DOC-12"
+      ],
+      "retrieved_titles": [
+        "Corporate Finance and Valuation",
+        "Introduction to Commercial Banking",
+        "Liquidity Risk and Asset-Liability Management",
+        "Investment Banking and Capital Markets",
+        "Financial Statement Analysis"
+      ],
+      "distances": [
+        0.2374,
+        0.2388,
+        0.2454,
+        0.2537,
+        0.2619
+      ],
+      "precision_at_5": 0.2
+    },
+    {
+      "question_id": "Q06",
+      "question_text": "Describe the Net Stable Funding Ratio (NSFR) and explain why retail deposits have high ASF factors.",
+      "relevant_docs": [
+        "DOC-3"
+      ],
+      "retrieved_ids": [
+        "DOC-14",
+        "DOC-1",
+        "DOC-12",
+        "DOC-4",
+        "DOC-15"
+      ],
+      "retrieved_titles": [
+        "Trade Finance and International Banking",
+        "Introduction to Commercial Banking",
+        "Financial Statement Analysis",
+        "Investment Banking and Capital Markets",
+        "ESG and Sustainable Finance"
+      ],
+      "distances": [
+        0.2456,
+        0.2476,
+        0.2678,
+        0.2737,
+        0.2748
+      ],
+      "precision_at_5": 0.0
+    },
+    {
+      "question_id": "Q07",
+      "question_text": "What is the difference between firm commitment underwriting and best efforts underwriting in an IPO?",
+      "relevant_docs": [
+        "DOC-4"
+      ],
+      "retrieved_ids": [
+        "DOC-4",
+        "DOC-1",
+        "DOC-12",
+        "DOC-8",
+        "DOC-3"
+      ],
+      "retrieved_titles": [
+        "Investment Banking and Capital Markets",
+        "Introduction to Commercial Banking",
+        "Financial Statement Analysis",
+        "Corporate Finance and Valuation",
+        "Liquidity Risk and Asset-Liability Management"
+      ],
+      "distances": [
+        0.2873,
+        0.292,
+        0.304,
+        0.3342,
+        0.3407
+      ],
+      "precision_at_5": 0.2
+    },
+    {
+      "question_id": "Q08",
+      "question_text": "How are Collateralized Debt Obligations (CDOs) structured and what are the different tranches?",
+      "relevant_docs": [
+        "DOC-4"
+      ],
+      "retrieved_ids": [
+        "DOC-4",
+        "DOC-5",
+        "DOC-8",
+        "DOC-12",
+        "DOC-13"
+      ],
+      "retrieved_titles": [
+        "Investment Banking and Capital Markets",
+        "Derivatives and Risk Management",
+        "Corporate Finance and Valuation",
+        "Financial Statement Analysis",
+        "Risk Management Frameworks"
+      ],
+      "distances": [
+        0.2559,
+        0.2734,
+        0.274,
+        0.3168,
+        0.3198
+      ],
+      "precision_at_5": 0.2
+    },
+    {
+      "question_id": "Q09",
+      "question_text": "Explain how an Interest Rate Swap works and why a company with floating-rate debt might enter one.",
+      "relevant_docs": [
+        "DOC-5"
+      ],
+      "retrieved_ids": [
+        "DOC-5",
+        "DOC-8",
+        "DOC-12",
+        "DOC-4",
+        "DOC-3"
+      ],
+      "retrieved_titles": [
+        "Derivatives and Risk Management",
+        "Corporate Finance and Valuation",
+        "Financial Statement Analysis",
+        "Investment Banking and Capital Markets",
+        "Liquidity Risk and Asset-Liability Management"
+      ],
+      "distances": [
+        0.2533,
+        0.2721,
+        0.2775,
+        0.2862,
+        0.2921
+      ],
+      "precision_at_5": 0.2
+    },
+    {
+      "question_id": "Q10",
+      "question_text": "What is Value at Risk (VaR) and what are its three main calculation methodologies?",
+      "relevant_docs": [
+        "DOC-5"
+      ],
+      "retrieved_ids": [
+        "DOC-1",
+        "DOC-4",
+        "DOC-11",
+        "DOC-8",
+        "DOC-12"
+      ],
+      "retrieved_titles": [
+        "Introduction to Commercial Banking",
+        "Investment Banking and Capital Markets",
+        "Monetary Policy and Central Banking",
+        "Corporate Finance and Valuation",
+        "Financial Statement Analysis"
+      ],
+      "distances": [
+        0.3206,
+        0.3222,
+        0.3279,
+        0.3294,
+        0.3504
+      ],
+      "precision_at_5": 0.0
+    },
+    {
+      "question_id": "Q11",
+      "question_text": "What are the three pillars of the Basel II framework?",
+      "relevant_docs": [
+        "DOC-6"
+      ],
+      "retrieved_ids": [
+        "DOC-1",
+        "DOC-4",
+        "DOC-12",
+        "DOC-15",
+        "DOC-11"
+      ],
+      "retrieved_titles": [
+        "Introduction to Commercial Banking",
+        "Investment Banking and Capital Markets",
+        "Financial Statement Analysis",
+        "ESG and Sustainable Finance",
+        "Monetary Policy and Central Banking"
+      ],
+      "distances": [
+        0.3723,
+        0.3945,
+        0.4152,
+        0.4244,
+        0.4278
+      ],
+      "precision_at_5": 0.0
+    },
+    {
+      "question_id": "Q12",
+      "question_text": "What does the Volcker Rule prohibit and under which regulation was it introduced?",
+      "relevant_docs": [
+        "DOC-6"
+      ],
+      "retrieved_ids": [
+        "DOC-6",
+        "DOC-1",
+        "DOC-11",
+        "DOC-15",
+        "DOC-4"
+      ],
+      "retrieved_titles": [
+        "Regulatory Framework and Compliance",
+        "Introduction to Commercial Banking",
+        "Monetary Policy and Central Banking",
+        "ESG and Sustainable Finance",
+        "Investment Banking and Capital Markets"
+      ],
+      "distances": [
+        0.3744,
+        0.3828,
+        0.3842,
+        0.3861,
+        0.3924
+      ],
+      "precision_at_5": 0.2
+    },
+    {
+      "question_id": "Q13",
+      "question_text": "Explain IFRS 9 Expected Credit Loss (ECL) model and the three stages of classification.",
+      "relevant_docs": [
+        "DOC-6"
+      ],
+      "retrieved_ids": [
+        "DOC-13",
+        "DOC-15",
+        "DOC-8",
+        "DOC-4",
+        "DOC-12"
+      ],
+      "retrieved_titles": [
+        "Risk Management Frameworks",
+        "ESG and Sustainable Finance",
+        "Corporate Finance and Valuation",
+        "Investment Banking and Capital Markets",
+        "Financial Statement Analysis"
+      ],
+      "distances": [
+        0.1873,
+        0.216,
+        0.2164,
+        0.2183,
+        0.2265
+      ],
+      "precision_at_5": 0.0
+    },
+    {
+      "question_id": "Q14",
+      "question_text": "How does deposit insurance work in the U.S. and what is the FDIC coverage limit?",
+      "relevant_docs": [
+        "DOC-7"
+      ],
+      "retrieved_ids": [
+        "DOC-7",
+        "DOC-1",
+        "DOC-15",
+        "DOC-3",
+        "DOC-4"
+      ],
+      "retrieved_titles": [
+        "Retail Banking Products",
+        "Introduction to Commercial Banking",
+        "ESG and Sustainable Finance",
+        "Liquidity Risk and Asset-Liability Management",
+        "Investment Banking and Capital Markets"
+      ],
+      "distances": [
+        0.2836,
+        0.3029,
+        0.3218,
+        0.3241,
+        0.3266
+      ],
+      "precision_at_5": 0.2
+    },
+    {
+      "question_id": "Q15",
+      "question_text": "What is Open Banking and which EU regulation mandated it? How has it affected retail banking?",
+      "relevant_docs": [
+        "DOC-7"
+      ],
+      "retrieved_ids": [
+        "DOC-6",
+        "DOC-15",
+        "DOC-13",
+        "DOC-3",
+        "DOC-1"
+      ],
+      "retrieved_titles": [
+        "Regulatory Framework and Compliance",
+        "ESG and Sustainable Finance",
+        "Risk Management Frameworks",
+        "Liquidity Risk and Asset-Liability Management",
+        "Introduction to Commercial Banking"
+      ],
+      "distances": [
+        0.3679,
+        0.3875,
+        0.3923,
+        0.3968,
+        0.3978
+      ],
+      "precision_at_5": 0.0
+    },
+    {
+      "question_id": "Q16",
+      "question_text": "Write out the WACC formula and explain each component including cost of equity via CAPM.",
+      "relevant_docs": [
+        "DOC-8"
+      ],
+      "retrieved_ids": [
+        "DOC-4",
+        "DOC-1",
+        "DOC-15",
+        "DOC-8",
+        "DOC-12"
+      ],
+      "retrieved_titles": [
+        "Investment Banking and Capital Markets",
+        "Introduction to Commercial Banking",
+        "ESG and Sustainable Finance",
+        "Corporate Finance and Valuation",
+        "Financial Statement Analysis"
+      ],
+      "distances": [
+        0.2671,
+        0.2943,
+        0.2996,
+        0.3044,
+        0.3116
+      ],
+      "precision_at_5": 0.2
+    },
+    {
+      "question_id": "Q17",
+      "question_text": "What is the Cash Conversion Cycle (CCC) and how is it calculated?",
+      "relevant_docs": [
+        "DOC-8"
+      ],
+      "retrieved_ids": [
+        "DOC-8",
+        "DOC-4",
+        "DOC-12",
+        "DOC-13",
+        "DOC-3"
+      ],
+      "retrieved_titles": [
+        "Corporate Finance and Valuation",
+        "Investment Banking and Capital Markets",
+        "Financial Statement Analysis",
+        "Risk Management Frameworks",
+        "Liquidity Risk and Asset-Liability Management"
+      ],
+      "distances": [
+        0.2655,
+        0.2742,
+        0.2746,
+        0.2913,
+        0.2973
+      ],
+      "precision_at_5": 0.2
+    },
+    {
+      "question_id": "Q18",
+      "question_text": "How does Discounted Cash Flow (DCF) valuation work, and what role does WACC play as a discount rate?",
+      "relevant_docs": [
+        "DOC-4",
+        "DOC-8"
+      ],
+      "retrieved_ids": [
+        "DOC-8",
+        "DOC-4",
+        "DOC-12",
+        "DOC-5",
+        "DOC-15"
+      ],
+      "retrieved_titles": [
+        "Corporate Finance and Valuation",
+        "Investment Banking and Capital Markets",
+        "Financial Statement Analysis",
+        "Derivatives and Risk Management",
+        "ESG and Sustainable Finance"
+      ],
+      "distances": [
+        0.2812,
+        0.2842,
+        0.2842,
+        0.2951,
+        0.2989
+      ],
+      "precision_at_5": 0.4
+    },
+    {
+      "question_id": "Q19",
+      "question_text": "What is bond duration and how does modified duration relate to interest rate sensitivity?",
+      "relevant_docs": [
+        "DOC-9"
+      ],
+      "retrieved_ids": [
+        "DOC-9",
+        "DOC-4",
+        "DOC-5",
+        "DOC-3",
+        "DOC-11"
+      ],
+      "retrieved_titles": [
+        "Fixed Income and Bond Markets",
+        "Investment Banking and Capital Markets",
+        "Derivatives and Risk Management",
+        "Liquidity Risk and Asset-Liability Management",
+        "Monetary Policy and Central Banking"
+      ],
+      "distances": [
+        0.3069,
+        0.3959,
+        0.3999,
+        0.4013,
+        0.407
+      ],
+      "precision_at_5": 0.2
+    },
+    {
+      "question_id": "Q20",
+      "question_text": "Explain the difference between investment-grade bonds and high-yield bonds, including typical credit spread ranges.",
+      "relevant_docs": [
+        "DOC-9"
+      ],
+      "retrieved_ids": [
+        "DOC-9",
+        "DOC-5",
+        "DOC-4",
+        "DOC-3",
+        "DOC-15"
+      ],
+      "retrieved_titles": [
+        "Fixed Income and Bond Markets",
+        "Derivatives and Risk Management",
+        "Investment Banking and Capital Markets",
+        "Liquidity Risk and Asset-Liability Management",
+        "ESG and Sustainable Finance"
+      ],
+      "distances": [
+        0.2066,
+        0.2454,
+        0.2553,
+        0.2811,
+        0.2924
+      ],
+      "precision_at_5": 0.2
+    },
+    {
+      "question_id": "Q21",
+      "question_text": "What does the Cost-to-Income (CIR) ratio measure for banks and what is considered an efficient level?",
+      "relevant_docs": [
+        "DOC-10"
+      ],
+      "retrieved_ids": [
+        "DOC-1",
+        "DOC-12",
+        "DOC-8",
+        "DOC-10",
+        "DOC-6"
+      ],
+      "retrieved_titles": [
+        "Introduction to Commercial Banking",
+        "Financial Statement Analysis",
+        "Corporate Finance and Valuation",
+        "Financial Ratios and Analysis",
+        "Regulatory Framework and Compliance"
+      ],
+      "distances": [
+        0.2711,
+        0.316,
+        0.3252,
+        0.3367,
+        0.3384
+      ],
+      "precision_at_5": 0.2
+    },
+    {
+      "question_id": "Q22",
+      "question_text": "Explain the DuPont decomposition of Return on Equity (ROE) and what each component reveals.",
+      "relevant_docs": [
+        "DOC-10",
+        "DOC-12"
+      ],
+      "retrieved_ids": [
+        "DOC-13",
+        "DOC-12",
+        "DOC-4",
+        "DOC-8",
+        "DOC-15"
+      ],
+      "retrieved_titles": [
+        "Risk Management Frameworks",
+        "Financial Statement Analysis",
+        "Investment Banking and Capital Markets",
+        "Corporate Finance and Valuation",
+        "ESG and Sustainable Finance"
+      ],
+      "distances": [
+        0.2219,
+        0.2228,
+        0.2287,
+        0.2297,
+        0.2401
+      ],
+      "precision_at_5": 0.2
+    },
+    {
+      "question_id": "Q23",
+      "question_text": "What is Quantitative Easing (QE) and through what channels does it work to stimulate the economy?",
+      "relevant_docs": [
+        "DOC-11"
+      ],
+      "retrieved_ids": [
+        "DOC-4",
+        "DOC-15",
+        "DOC-12",
+        "DOC-1",
+        "DOC-3"
+      ],
+      "retrieved_titles": [
+        "Investment Banking and Capital Markets",
+        "ESG and Sustainable Finance",
+        "Financial Statement Analysis",
+        "Introduction to Commercial Banking",
+        "Liquidity Risk and Asset-Liability Management"
+      ],
+      "distances": [
+        0.3147,
+        0.315,
+        0.3188,
+        0.3238,
+        0.3321
+      ],
+      "precision_at_5": 0.0
+    },
+    {
+      "question_id": "Q24",
+      "question_text": "Describe the Taylor Rule and how it guides central bank interest rate setting relative to inflation and output gaps.",
+      "relevant_docs": [
+        "DOC-11"
+      ],
+      "retrieved_ids": [
+        "DOC-11",
+        "DOC-4",
+        "DOC-1",
+        "DOC-15",
+        "DOC-9"
+      ],
+      "retrieved_titles": [
+        "Monetary Policy and Central Banking",
+        "Investment Banking and Capital Markets",
+        "Introduction to Commercial Banking",
+        "ESG and Sustainable Finance",
+        "Fixed Income and Bond Markets"
+      ],
+      "distances": [
+        0.2673,
+        0.2734,
+        0.2749,
+        0.2874,
+        0.2895
+      ],
+      "precision_at_5": 0.2
+    },
+    {
+      "question_id": "Q25",
+      "question_text": "What is the Beneish M-Score and what does it detect in financial statements?",
+      "relevant_docs": [
+        "DOC-12"
+      ],
+      "retrieved_ids": [
+        "DOC-15",
+        "DOC-1",
+        "DOC-4",
+        "DOC-13",
+        "DOC-12"
+      ],
+      "retrieved_titles": [
+        "ESG and Sustainable Finance",
+        "Introduction to Commercial Banking",
+        "Investment Banking and Capital Markets",
+        "Risk Management Frameworks",
+        "Financial Statement Analysis"
+      ],
+      "distances": [
+        0.3063,
+        0.3063,
+        0.3079,
+        0.3204,
+        0.322
+      ],
+      "precision_at_5": 0.2
+    },
+    {
+      "question_id": "Q26",
+      "question_text": "Explain DuPont analysis and how it reveals whether ROE improvement is driven by margins, efficiency, or leverage.",
+      "relevant_docs": [
+        "DOC-12",
+        "DOC-10"
+      ],
+      "retrieved_ids": [
+        "DOC-12",
+        "DOC-15",
+        "DOC-14",
+        "DOC-4",
+        "DOC-1"
+      ],
+      "retrieved_titles": [
+        "Financial Statement Analysis",
+        "ESG and Sustainable Finance",
+        "Trade Finance and International Banking",
+        "Investment Banking and Capital Markets",
+        "Introduction to Commercial Banking"
+      ],
+      "distances": [
+        0.2329,
+        0.301,
+        0.313,
+        0.3147,
+        0.319
+      ],
+      "precision_at_5": 0.2
+    },
+    {
+      "question_id": "Q27",
+      "question_text": "What is Credit Valuation Adjustment (CVA) and how does it relate to counterparty credit risk in derivatives?",
+      "relevant_docs": [
+        "DOC-13"
+      ],
+      "retrieved_ids": [
+        "DOC-4",
+        "DOC-13",
+        "DOC-3",
+        "DOC-5",
+        "DOC-15"
+      ],
+      "retrieved_titles": [
+        "Investment Banking and Capital Markets",
+        "Risk Management Frameworks",
+        "Liquidity Risk and Asset-Liability Management",
+        "Derivatives and Risk Management",
+        "ESG and Sustainable Finance"
+      ],
+      "distances": [
+        0.2221,
+        0.2431,
+        0.2564,
+        0.2724,
+        0.2804
+      ],
+      "precision_at_5": 0.2
+    },
+    {
+      "question_id": "Q28",
+      "question_text": "Explain operational risk under Basel III and identify the three approaches banks use to calculate capital requirements.",
+      "relevant_docs": [
+        "DOC-13",
+        "DOC-6"
+      ],
+      "retrieved_ids": [
+        "DOC-1",
+        "DOC-13",
+        "DOC-15",
+        "DOC-6",
+        "DOC-12"
+      ],
+      "retrieved_titles": [
+        "Introduction to Commercial Banking",
+        "Risk Management Frameworks",
+        "ESG and Sustainable Finance",
+        "Regulatory Framework and Compliance",
+        "Financial Statement Analysis"
+      ],
+      "distances": [
+        0.2608,
+        0.2609,
+        0.2705,
+        0.2838,
+        0.2846
+      ],
+      "precision_at_5": 0.4
+    },
+    {
+      "question_id": "Q29",
+      "question_text": "How does a Letter of Credit (LC) work in trade finance and what is the role of a confirming bank?",
+      "relevant_docs": [
+        "DOC-14"
+      ],
+      "retrieved_ids": [
+        "DOC-4",
+        "DOC-1",
+        "DOC-15",
+        "DOC-14",
+        "DOC-13"
+      ],
+      "retrieved_titles": [
+        "Investment Banking and Capital Markets",
+        "Introduction to Commercial Banking",
+        "ESG and Sustainable Finance",
+        "Trade Finance and International Banking",
+        "Risk Management Frameworks"
+      ],
+      "distances": [
+        0.2802,
+        0.3179,
+        0.326,
+        0.3361,
+        0.3397
+      ],
+      "precision_at_5": 0.2
+    },
+    {
+      "question_id": "Q30",
+      "question_text": "What is the EU Taxonomy for Sustainable Activities and how does SFDR classify investment funds under Articles 6, 8, and 9?",
+      "relevant_docs": [
+        "DOC-15"
+      ],
+      "retrieved_ids": [
+        "DOC-4",
+        "DOC-8",
+        "DOC-3",
+        "DOC-15",
+        "DOC-12"
+      ],
+      "retrieved_titles": [
+        "Investment Banking and Capital Markets",
+        "Corporate Finance and Valuation",
+        "Liquidity Risk and Asset-Liability Management",
+        "ESG and Sustainable Finance",
+        "Financial Statement Analysis"
+      ],
+      "distances": [
+        0.2651,
+        0.2895,
+        0.293,
+        0.2981,
+        0.2989
+      ],
+      "precision_at_5": 0.2
+    }
+  ]
+}

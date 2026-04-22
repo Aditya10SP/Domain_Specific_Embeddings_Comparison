@@ -1,0 +1,101 @@
+================================================================================
+  EXP-09 CROSS-MODEL COMPARISON — PRECISION@5 SUMMARY
+  Generated: 2026-04-22 13:33:35
+================================================================================
+
+  RANKING BY MEAN PRECISION@5
+
+  #1  ████                  24.0%  BAAI/bge-m3 (General multilingual)
+  #2  ████                  23.3%  all-MiniLM-L6-v2 (General baseline)
+  #3  ████                  23.3%  nickmuchi/finance-embeddings-investopedia (Finance-specific)
+  #4  ███                   17.3%  yiyanghkust/finbert-tone (FinBERT)
+
+--------------------------------------------------------------------------------
+  PER-QUESTION BREAKDOWN
+
+  QID    A_MiniLM        B_BGE_M3        C_FinBERT       D_Finance_Inve
+  ----------------------------------------------------------------------
+  Q01      0.20            0.20            0.20            0.20          
+  Q02      0.40            0.40            0.40            0.40          
+  Q03      0.20            0.20            0.20            0.20          
+  Q04      0.20            0.20            0.00            0.20          
+  Q05      0.40            0.40            0.20            0.40          
+  Q06      0.20            0.20            0.00            0.20          
+  Q07      0.20            0.20            0.20            0.20          
+  Q08      0.20            0.20            0.20            0.20          
+  Q09      0.20            0.20            0.20            0.20          
+  Q10      0.20            0.20            0.00            0.20          
+  Q11      0.20            0.20            0.00            0.20          
+  Q12      0.20            0.20            0.20            0.20          
+  Q13      0.00            0.20            0.00            0.00          
+  Q14      0.20            0.20            0.20            0.20          
+  Q15      0.20            0.20            0.00            0.20          
+  Q16      0.20            0.20            0.20            0.20          
+  Q17      0.20            0.20            0.20            0.20          
+  Q18      0.40            0.40            0.40            0.40          
+  Q19      0.20            0.20            0.20            0.20          
+  Q20      0.20            0.20            0.20            0.20          
+  Q21      0.20            0.20            0.20            0.20          
+  Q22      0.40            0.40            0.20            0.40          
+  Q23      0.20            0.20            0.00            0.20          
+  Q24      0.20            0.20            0.20            0.20          
+  Q25      0.20            0.20            0.20            0.20          
+  Q26      0.40            0.40            0.20            0.40          
+  Q27      0.20            0.20            0.20            0.20          
+  Q28      0.40            0.40            0.40            0.40          
+  Q29      0.20            0.20            0.20            0.20          
+  Q30      0.20            0.20            0.20            0.20          
+
+--------------------------------------------------------------------------------
+  MEAN P@5 TOTALS
+
+  MEAN     0.23            0.24            0.17            0.23          
+
+================================================================================
+  KEY INSIGHTS — WHERE DOMAIN-SPECIFIC WINS vs GENERAL
+================================================================================
+
+  TOP 5: Domain-specific WINS
+
+  Q01  Delta=+0.00  (domain=0.20 general=0.20)
+       Q: What is Net Interest Margin (NIM) and what range is considered
+          healthy for retail banks?
+
+  Q02  Delta=+0.00  (domain=0.40 general=0.40)
+       Q: What are the Basel III minimum Tier 1 capital ratio and total
+          capital ratio requirements?
+
+  Q03  Delta=+0.00  (domain=0.20 general=0.20)
+       Q: Define Non-Performing Loans (NPLs) and the threshold NPL ratio
+          that signals significant credit quality problems.
+
+  Q07  Delta=+0.00  (domain=0.20 general=0.20)
+       Q: What is the difference between firm commitment underwriting and
+          best efforts underwriting in an IPO?
+
+  Q08  Delta=+0.00  (domain=0.20 general=0.20)
+       Q: How are Collateralized Debt Obligations (CDOs) structured and what
+          are the different tranches?
+
+  TOP 5: General models WIN
+
+  Q10  Delta=-0.10  (general=0.20 domain=0.10)
+       Q: What is Value at Risk (VaR) and what are its three main
+          calculation methodologies?
+
+  Q11  Delta=-0.10  (general=0.20 domain=0.10)
+       Q: What are the three pillars of the Basel II framework?
+
+  Q13  Delta=-0.10  (general=0.10 domain=0.00)
+       Q: Explain IFRS 9 Expected Credit Loss (ECL) model and the three
+          stages of classification.
+
+  Q15  Delta=-0.10  (general=0.20 domain=0.10)
+       Q: What is Open Banking and which EU regulation mandated it? How has
+          it affected retail banking?
+
+  Q23  Delta=-0.10  (general=0.20 domain=0.10)
+       Q: What is Quantitative Easing (QE) and through what channels does it
+          work to stimulate the economy?
+
+================================================================================

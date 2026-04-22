@@ -1,0 +1,342 @@
+{
+  "ranked": [
+    {
+      "rank": 1,
+      "model_key": "B_BGE_M3",
+      "label": "BAAI/bge-m3 (General multilingual)",
+      "hf_name": "BAAI/bge-m3",
+      "mean_p5": 0.24,
+      "per_question": {
+        "Q01": 0.2,
+        "Q02": 0.4,
+        "Q03": 0.2,
+        "Q04": 0.2,
+        "Q05": 0.4,
+        "Q06": 0.2,
+        "Q07": 0.2,
+        "Q08": 0.2,
+        "Q09": 0.2,
+        "Q10": 0.2,
+        "Q11": 0.2,
+        "Q12": 0.2,
+        "Q13": 0.2,
+        "Q14": 0.2,
+        "Q15": 0.2,
+        "Q16": 0.2,
+        "Q17": 0.2,
+        "Q18": 0.4,
+        "Q19": 0.2,
+        "Q20": 0.2,
+        "Q21": 0.2,
+        "Q22": 0.4,
+        "Q23": 0.2,
+        "Q24": 0.2,
+        "Q25": 0.2,
+        "Q26": 0.4,
+        "Q27": 0.2,
+        "Q28": 0.4,
+        "Q29": 0.2,
+        "Q30": 0.2
+      }
+    },
+    {
+      "rank": 2,
+      "model_key": "A_MiniLM",
+      "label": "all-MiniLM-L6-v2 (General baseline)",
+      "hf_name": "sentence-transformers/all-MiniLM-L6-v2",
+      "mean_p5": 0.2333,
+      "per_question": {
+        "Q01": 0.2,
+        "Q02": 0.4,
+        "Q03": 0.2,
+        "Q04": 0.2,
+        "Q05": 0.4,
+        "Q06": 0.2,
+        "Q07": 0.2,
+        "Q08": 0.2,
+        "Q09": 0.2,
+        "Q10": 0.2,
+        "Q11": 0.2,
+        "Q12": 0.2,
+        "Q13": 0.0,
+        "Q14": 0.2,
+        "Q15": 0.2,
+        "Q16": 0.2,
+        "Q17": 0.2,
+        "Q18": 0.4,
+        "Q19": 0.2,
+        "Q20": 0.2,
+        "Q21": 0.2,
+        "Q22": 0.4,
+        "Q23": 0.2,
+        "Q24": 0.2,
+        "Q25": 0.2,
+        "Q26": 0.4,
+        "Q27": 0.2,
+        "Q28": 0.4,
+        "Q29": 0.2,
+        "Q30": 0.2
+      }
+    },
+    {
+      "rank": 3,
+      "model_key": "D_Finance_Investopedia",
+      "label": "nickmuchi/finance-embeddings-investopedia (Finance-specific)",
+      "hf_name": "nickmuchi/finance-embeddings-investopedia",
+      "mean_p5": 0.2333,
+      "per_question": {
+        "Q01": 0.2,
+        "Q02": 0.4,
+        "Q03": 0.2,
+        "Q04": 0.2,
+        "Q05": 0.4,
+        "Q06": 0.2,
+        "Q07": 0.2,
+        "Q08": 0.2,
+        "Q09": 0.2,
+        "Q10": 0.2,
+        "Q11": 0.2,
+        "Q12": 0.2,
+        "Q13": 0.0,
+        "Q14": 0.2,
+        "Q15": 0.2,
+        "Q16": 0.2,
+        "Q17": 0.2,
+        "Q18": 0.4,
+        "Q19": 0.2,
+        "Q20": 0.2,
+        "Q21": 0.2,
+        "Q22": 0.4,
+        "Q23": 0.2,
+        "Q24": 0.2,
+        "Q25": 0.2,
+        "Q26": 0.4,
+        "Q27": 0.2,
+        "Q28": 0.4,
+        "Q29": 0.2,
+        "Q30": 0.2
+      }
+    },
+    {
+      "rank": 4,
+      "model_key": "C_FinBERT",
+      "label": "yiyanghkust/finbert-tone (FinBERT)",
+      "hf_name": "yiyanghkust/finbert-tone",
+      "mean_p5": 0.1733,
+      "per_question": {
+        "Q01": 0.2,
+        "Q02": 0.4,
+        "Q03": 0.2,
+        "Q04": 0.0,
+        "Q05": 0.2,
+        "Q06": 0.0,
+        "Q07": 0.2,
+        "Q08": 0.2,
+        "Q09": 0.2,
+        "Q10": 0.0,
+        "Q11": 0.0,
+        "Q12": 0.2,
+        "Q13": 0.0,
+        "Q14": 0.2,
+        "Q15": 0.0,
+        "Q16": 0.2,
+        "Q17": 0.2,
+        "Q18": 0.4,
+        "Q19": 0.2,
+        "Q20": 0.2,
+        "Q21": 0.2,
+        "Q22": 0.2,
+        "Q23": 0.0,
+        "Q24": 0.2,
+        "Q25": 0.2,
+        "Q26": 0.2,
+        "Q27": 0.2,
+        "Q28": 0.4,
+        "Q29": 0.2,
+        "Q30": 0.2
+      }
+    }
+  ],
+  "per_question_breakdown": {
+    "Q01": {
+      "A_MiniLM": 0.2,
+      "B_BGE_M3": 0.2,
+      "C_FinBERT": 0.2,
+      "D_Finance_Investopedia": 0.2
+    },
+    "Q02": {
+      "A_MiniLM": 0.4,
+      "B_BGE_M3": 0.4,
+      "C_FinBERT": 0.4,
+      "D_Finance_Investopedia": 0.4
+    },
+    "Q03": {
+      "A_MiniLM": 0.2,
+      "B_BGE_M3": 0.2,
+      "C_FinBERT": 0.2,
+      "D_Finance_Investopedia": 0.2
+    },
+    "Q04": {
+      "A_MiniLM": 0.2,
+      "B_BGE_M3": 0.2,
+      "C_FinBERT": 0.0,
+      "D_Finance_Investopedia": 0.2
+    },
+    "Q05": {
+      "A_MiniLM": 0.4,
+      "B_BGE_M3": 0.4,
+      "C_FinBERT": 0.2,
+      "D_Finance_Investopedia": 0.4
+    },
+    "Q06": {
+      "A_MiniLM": 0.2,
+      "B_BGE_M3": 0.2,
+      "C_FinBERT": 0.0,
+      "D_Finance_Investopedia": 0.2
+    },
+    "Q07": {
+      "A_MiniLM": 0.2,
+      "B_BGE_M3": 0.2,
+      "C_FinBERT": 0.2,
+      "D_Finance_Investopedia": 0.2
+    },
+    "Q08": {
+      "A_MiniLM": 0.2,
+      "B_BGE_M3": 0.2,
+      "C_FinBERT": 0.2,
+      "D_Finance_Investopedia": 0.2
+    },
+    "Q09": {
+      "A_MiniLM": 0.2,
+      "B_BGE_M3": 0.2,
+      "C_FinBERT": 0.2,
+      "D_Finance_Investopedia": 0.2
+    },
+    "Q10": {
+      "A_MiniLM": 0.2,
+      "B_BGE_M3": 0.2,
+      "C_FinBERT": 0.0,
+      "D_Finance_Investopedia": 0.2
+    },
+    "Q11": {
+      "A_MiniLM": 0.2,
+      "B_BGE_M3": 0.2,
+      "C_FinBERT": 0.0,
+      "D_Finance_Investopedia": 0.2
+    },
+    "Q12": {
+      "A_MiniLM": 0.2,
+      "B_BGE_M3": 0.2,
+      "C_FinBERT": 0.2,
+      "D_Finance_Investopedia": 0.2
+    },
+    "Q13": {
+      "A_MiniLM": 0.0,
+      "B_BGE_M3": 0.2,
+      "C_FinBERT": 0.0,
+      "D_Finance_Investopedia": 0.0
+    },
+    "Q14": {
+      "A_MiniLM": 0.2,
+      "B_BGE_M3": 0.2,
+      "C_FinBERT": 0.2,
+      "D_Finance_Investopedia": 0.2
+    },
+    "Q15": {
+      "A_MiniLM": 0.2,
+      "B_BGE_M3": 0.2,
+      "C_FinBERT": 0.0,
+      "D_Finance_Investopedia": 0.2
+    },
+    "Q16": {
+      "A_MiniLM": 0.2,
+      "B_BGE_M3": 0.2,
+      "C_FinBERT": 0.2,
+      "D_Finance_Investopedia": 0.2
+    },
+    "Q17": {
+      "A_MiniLM": 0.2,
+      "B_BGE_M3": 0.2,
+      "C_FinBERT": 0.2,
+      "D_Finance_Investopedia": 0.2
+    },
+    "Q18": {
+      "A_MiniLM": 0.4,
+      "B_BGE_M3": 0.4,
+      "C_FinBERT": 0.4,
+      "D_Finance_Investopedia": 0.4
+    },
+    "Q19": {
+      "A_MiniLM": 0.2,
+      "B_BGE_M3": 0.2,
+      "C_FinBERT": 0.2,
+      "D_Finance_Investopedia": 0.2
+    },
+    "Q20": {
+      "A_MiniLM": 0.2,
+      "B_BGE_M3": 0.2,
+      "C_FinBERT": 0.2,
+      "D_Finance_Investopedia": 0.2
+    },
+    "Q21": {
+      "A_MiniLM": 0.2,
+      "B_BGE_M3": 0.2,
+      "C_FinBERT": 0.2,
+      "D_Finance_Investopedia": 0.2
+    },
+    "Q22": {
+      "A_MiniLM": 0.4,
+      "B_BGE_M3": 0.4,
+      "C_FinBERT": 0.2,
+      "D_Finance_Investopedia": 0.4
+    },
+    "Q23": {
+      "A_MiniLM": 0.2,
+      "B_BGE_M3": 0.2,
+      "C_FinBERT": 0.0,
+      "D_Finance_Investopedia": 0.2
+    },
+    "Q24": {
+      "A_MiniLM": 0.2,
+      "B_BGE_M3": 0.2,
+      "C_FinBERT": 0.2,
+      "D_Finance_Investopedia": 0.2
+    },
+    "Q25": {
+      "A_MiniLM": 0.2,
+      "B_BGE_M3": 0.2,
+      "C_FinBERT": 0.2,
+      "D_Finance_Investopedia": 0.2
+    },
+    "Q26": {
+      "A_MiniLM": 0.4,
+      "B_BGE_M3": 0.4,
+      "C_FinBERT": 0.2,
+      "D_Finance_Investopedia": 0.4
+    },
+    "Q27": {
+      "A_MiniLM": 0.2,
+      "B_BGE_M3": 0.2,
+      "C_FinBERT": 0.2,
+      "D_Finance_Investopedia": 0.2
+    },
+    "Q28": {
+      "A_MiniLM": 0.4,
+      "B_BGE_M3": 0.4,
+      "C_FinBERT": 0.4,
+      "D_Finance_Investopedia": 0.4
+    },
+    "Q29": {
+      "A_MiniLM": 0.2,
+      "B_BGE_M3": 0.2,
+      "C_FinBERT": 0.2,
+      "D_Finance_Investopedia": 0.2
+    },
+    "Q30": {
+      "A_MiniLM": 0.2,
+      "B_BGE_M3": 0.2,
+      "C_FinBERT": 0.2,
+      "D_Finance_Investopedia": 0.2
+    }
+  }
+}

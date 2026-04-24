@@ -1,400 +1,340 @@
 ================================================================================
-  EXP-09 RESULTS — yiyanghkust/finbert-tone (FinBERT)
-  HuggingFace: yiyanghkust/finbert-tone
-  Mean Precision@5: 0.1733  (17.3%)
-  Generated: 2026-04-22 13:33:31
+  EXP-09 v3 RESULTS — FinBERT-tone (Finance sentiment)
+  Model loaded : yiyanghkust/finbert-tone
+  Fallback used: None
+  Chunking     : SEMANTIC | 10009 chunks from 5 docs
+
+  Recall@1 : 0.4839  (48.4%)
+  Recall@3 : 0.9032  (90.3%)
+  Recall@5 : 0.9677  (96.8%)
+  MRR      : 0.6828
+  P@5      : 0.2516
+  Generated: 2026-04-23 15:57
 ================================================================================
 
-----------------------------------------------------------------------
-  [Q01] P@5=0.20  ✓ HIT 
-  Q: What is Net Interest Margin (NIM) and what range is considered
-     healthy for retail banks?
-  Relevant: DOC-1
-  Retrieved (rank 1→5):
-    1. ◉ [DOC-1] Introduction to Commercial Banking  (dist=0.295)
-    2. ○ [DOC-8] Corporate Finance and Valuation  (dist=0.2998)
-    3. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.3015)
-    4. ○ [DOC-11] Monetary Policy and Central Banking  (dist=0.3085)
-    5. ○ [DOC-7] Retail Banking Products  (dist=0.3118)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q01] R@1=0  R@3=0  R@5=0  RR=0.000    MISS
+  Q: What are the main approaches to measuring credit risk in banking?
+  Relevant docs: DOC-01
+    1. ○ [DOC-05-C79→DOC-05] Risk Management & VaR  (dist=0.2385)
+    2. ○ [DOC-02-C316→DOC-02] Portfolio Management & Asset Allocation  (dist=0.2434)
+    3. ○ [DOC-08-C624→DOC-08] Machine Learning in Finance  (dist=0.2435)
+    4. ○ [DOC-05-C77→DOC-05] Risk Management & VaR  (dist=0.2453)
+    4. ○ [DOC-08-C2531→DOC-08] Machine Learning in Finance  (dist=0.2479)
 
-----------------------------------------------------------------------
-  [Q02] P@5=0.40  ✓ HIT 
-  Q: What are the Basel III minimum Tier 1 capital ratio and total
-     capital ratio requirements?
-  Relevant: DOC-1, DOC-6
-  Retrieved (rank 1→5):
-    1. ◉ [DOC-1] Introduction to Commercial Banking  (dist=0.3202)
-    2. ◉ [DOC-6] Regulatory Framework and Compliance  (dist=0.365)
-    3. ○ [DOC-10] Financial Ratios and Analysis  (dist=0.4132)
-    4. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.4191)
-    5. ○ [DOC-8] Corporate Finance and Valuation  (dist=0.4441)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q02] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: How do Basel regulations impact bank capital requirements?
+  Relevant docs: DOC-01
+    1. ◉ [DOC-01-C272→DOC-01] Banking & Credit Risk  (dist=0.33)
+    2. ◉ [DOC-01-C261→DOC-01] Banking & Credit Risk  (dist=0.332)
+    2. ◉ [DOC-01-C263→DOC-01] Banking & Credit Risk  (dist=0.3443)
+    2. ○ [DOC-08-C4078→DOC-08] Machine Learning in Finance  (dist=0.3471)
+    3. ○ [DOC-08-C4073→DOC-08] Machine Learning in Finance  (dist=0.3694)
 
-----------------------------------------------------------------------
-  [Q03] P@5=0.20  ✓ HIT 
-  Q: Define Non-Performing Loans (NPLs) and the threshold NPL ratio
-     that signals significant credit quality problems.
-  Relevant: DOC-2
-  Retrieved (rank 1→5):
-    1. ◉ [DOC-2] Credit Risk Management  (dist=0.2025)
-    2. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.3111)
-    3. ○ [DOC-13] Risk Management Frameworks  (dist=0.3167)
-    4. ○ [DOC-12] Financial Statement Analysis  (dist=0.3383)
-    5. ○ [DOC-10] Financial Ratios and Analysis  (dist=0.3457)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q03] R@1=0  R@3=1  R@5=1  RR=0.500    rank-2 hit
+  Q: Explain the mean-variance optimization framework for portfolio
+     construction.
+  Relevant docs: DOC-02
+    1. ○ [DOC-05-C1891→DOC-05] Risk Management & VaR  (dist=0.1903)
+    2. ◉ [DOC-02-C1065→DOC-02] Portfolio Management & Asset Allocation  (dist=0.1958)
+    3. ○ [DOC-05-C1627→DOC-05] Risk Management & VaR  (dist=0.1994)
+    3. ◉ [DOC-02-C593→DOC-02] Portfolio Management & Asset Allocation  (dist=0.2019)
+    3. ◉ [DOC-02-C279→DOC-02] Portfolio Management & Asset Allocation  (dist=0.2022)
 
-----------------------------------------------------------------------
-  [Q04] P@5=0.00  ✗ MISS
-  Q: Explain the Expected Loss (EL) formula components: PD, LGD, and
-     EAD.
-  Relevant: DOC-2
-  Retrieved (rank 1→5):
-    1. ○ [DOC-13] Risk Management Frameworks  (dist=0.2196)
-    2. ○ [DOC-14] Trade Finance and International Banking  (dist=0.2211)
-    3. ○ [DOC-8] Corporate Finance and Valuation  (dist=0.2267)
-    4. ○ [DOC-12] Financial Statement Analysis  (dist=0.2395)
-    5. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.2447)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q04] R@1=0  R@3=0  R@5=1  RR=0.250    rank-4 hit
+  Q: What is the Sharpe ratio and how is it used in portfolio
+     evaluation?
+  Relevant docs: DOC-02
+    1. ○ [DOC-08-C1247→DOC-08] Machine Learning in Finance  (dist=0.193)
+    2. ○ [DOC-04-C627→DOC-04] Derivatives & Options Pricing  (dist=0.2141)
+    3. ○ [DOC-08-C4235→DOC-08] Machine Learning in Finance  (dist=0.2168)
+    3. ○ [DOC-05-C517→DOC-05] Risk Management & VaR  (dist=0.2185)
+    4. ○ [DOC-08-C3190→DOC-08] Machine Learning in Finance  (dist=0.2191)
 
-----------------------------------------------------------------------
-  [Q05] P@5=0.20  ✓ HIT 
-  Q: What is the Liquidity Coverage Ratio (LCR) and what assets qualify
-     as Level 1 HQLA?
-  Relevant: DOC-3, DOC-6
-  Retrieved (rank 1→5):
-    1. ○ [DOC-8] Corporate Finance and Valuation  (dist=0.2374)
-    2. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.2388)
-    3. ◉ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.2454)
-    4. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.2537)
-    5. ○ [DOC-12] Financial Statement Analysis  (dist=0.2619)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q07] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: Describe the Black-Scholes option pricing model and its
+     assumptions.
+  Relevant docs: DOC-04
+    1. ◉ [DOC-04-C596→DOC-04] Derivatives & Options Pricing  (dist=0.2058)
+    2. ◉ [DOC-04-C1108→DOC-04] Derivatives & Options Pricing  (dist=0.2131)
+    2. ◉ [DOC-04-C729→DOC-04] Derivatives & Options Pricing  (dist=0.2135)
+    2. ○ [DOC-05-C2144→DOC-05] Risk Management & VaR  (dist=0.2187)
+    3. ○ [DOC-08-C3274→DOC-08] Machine Learning in Finance  (dist=0.2198)
 
-----------------------------------------------------------------------
-  [Q06] P@5=0.00  ✗ MISS
-  Q: Describe the Net Stable Funding Ratio (NSFR) and explain why
-     retail deposits have high ASF factors.
-  Relevant: DOC-3
-  Retrieved (rank 1→5):
-    1. ○ [DOC-14] Trade Finance and International Banking  (dist=0.2456)
-    2. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.2476)
-    3. ○ [DOC-12] Financial Statement Analysis  (dist=0.2678)
-    4. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.2737)
-    5. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.2748)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q08] R@1=0  R@3=1  R@5=1  RR=0.333    rank-3 hit
+  Q: What are the Greeks in options trading and why are they important?
+  Relevant docs: DOC-04
+    1. ○ [DOC-08-C671→DOC-08] Machine Learning in Finance  (dist=0.2511)
+    2. ○ [DOC-08-C1637→DOC-08] Machine Learning in Finance  (dist=0.2624)
+    2. ○ [DOC-05-C2080→DOC-05] Risk Management & VaR  (dist=0.2713)
+    3. ○ [DOC-08-C1246→DOC-08] Machine Learning in Finance  (dist=0.2747)
+    3. ○ [DOC-08-C2284→DOC-08] Machine Learning in Finance  (dist=0.275)
 
-----------------------------------------------------------------------
-  [Q07] P@5=0.20  ✓ HIT 
-  Q: What is the difference between firm commitment underwriting and
-     best efforts underwriting in an IPO?
-  Relevant: DOC-4
-  Retrieved (rank 1→5):
-    1. ◉ [DOC-4] Investment Banking and Capital Markets  (dist=0.2873)
-    2. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.292)
-    3. ○ [DOC-12] Financial Statement Analysis  (dist=0.304)
-    4. ○ [DOC-8] Corporate Finance and Valuation  (dist=0.3342)
-    5. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.3407)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q09] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: What is Value at Risk (VaR) and what are its limitations?
+  Relevant docs: DOC-05
+    1. ◉ [DOC-05-C1346→DOC-05] Risk Management & VaR  (dist=0.2181)
+    2. ○ [DOC-04-C856→DOC-04] Derivatives & Options Pricing  (dist=0.2225)
+    3. ○ [DOC-08-C1630→DOC-08] Machine Learning in Finance  (dist=0.2227)
+    4. ◉ [DOC-05-C1219→DOC-05] Risk Management & VaR  (dist=0.2237)
+    4. ◉ [DOC-05-C134→DOC-05] Risk Management & VaR  (dist=0.224)
 
-----------------------------------------------------------------------
-  [Q08] P@5=0.20  ✓ HIT 
-  Q: How are Collateralized Debt Obligations (CDOs) structured and what
-     are the different tranches?
-  Relevant: DOC-4
-  Retrieved (rank 1→5):
-    1. ◉ [DOC-4] Investment Banking and Capital Markets  (dist=0.2559)
-    2. ○ [DOC-5] Derivatives and Risk Management  (dist=0.2734)
-    3. ○ [DOC-8] Corporate Finance and Valuation  (dist=0.274)
-    4. ○ [DOC-12] Financial Statement Analysis  (dist=0.3168)
-    5. ○ [DOC-13] Risk Management Frameworks  (dist=0.3198)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q10] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: Explain Conditional Value at Risk (CVaR) and how it differs from
+     VaR.
+  Relevant docs: DOC-05
+    1. ◉ [DOC-05-C1368→DOC-05] Risk Management & VaR  (dist=0.1452)
+    2. ◉ [DOC-05-C1401→DOC-05] Risk Management & VaR  (dist=0.148)
+    2. ◉ [DOC-05-C1158→DOC-05] Risk Management & VaR  (dist=0.148)
+    2. ○ [DOC-08-C4008→DOC-08] Machine Learning in Finance  (dist=0.1493)
+    3. ◉ [DOC-05-C349→DOC-05] Risk Management & VaR  (dist=0.1497)
 
-----------------------------------------------------------------------
-  [Q09] P@5=0.20  ✓ HIT 
-  Q: Explain how an Interest Rate Swap works and why a company with
-     floating-rate debt might enter one.
-  Relevant: DOC-5
-  Retrieved (rank 1→5):
-    1. ◉ [DOC-5] Derivatives and Risk Management  (dist=0.2533)
-    2. ○ [DOC-8] Corporate Finance and Valuation  (dist=0.2721)
-    3. ○ [DOC-12] Financial Statement Analysis  (dist=0.2775)
-    4. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.2862)
-    5. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.2921)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q11] R@1=0  R@3=1  R@5=1  RR=0.333    rank-3 hit
+  Q: How do credit risk models relate to portfolio optimization
+     strategies?
+  Relevant docs: DOC-01, DOC-02
+    1. ○ [DOC-05-C25→DOC-05] Risk Management & VaR  (dist=0.2261)
+    2. ○ [DOC-04-C941→DOC-04] Derivatives & Options Pricing  (dist=0.228)
+    3. ◉ [DOC-02-C316→DOC-02] Portfolio Management & Asset Allocation  (dist=0.2385)
+    4. ○ [DOC-08-C2531→DOC-08] Machine Learning in Finance  (dist=0.2429)
+    5. ○ [DOC-08-C2526→DOC-08] Machine Learning in Finance  (dist=0.2438)
 
-----------------------------------------------------------------------
-  [Q10] P@5=0.00  ✗ MISS
-  Q: What is Value at Risk (VaR) and what are its three main
-     calculation methodologies?
-  Relevant: DOC-5
-  Retrieved (rank 1→5):
-    1. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.3206)
-    2. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.3222)
-    3. ○ [DOC-11] Monetary Policy and Central Banking  (dist=0.3279)
-    4. ○ [DOC-8] Corporate Finance and Valuation  (dist=0.3294)
-    5. ○ [DOC-12] Financial Statement Analysis  (dist=0.3504)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q12] R@1=0  R@3=0  R@5=1  RR=0.250    rank-4 hit
+  Q: What is the relationship between banking regulation and systemic
+     risk?
+  Relevant docs: DOC-01, DOC-14
+    1. ○ [DOC-02-C121→DOC-02] Portfolio Management & Asset Allocation  (dist=0.2819)
+    2. ○ [DOC-08-C1247→DOC-08] Machine Learning in Finance  (dist=0.2957)
+    3. ○ [DOC-04-C30→DOC-04] Derivatives & Options Pricing  (dist=0.297)
+    4. ○ [DOC-08-C4599→DOC-08] Machine Learning in Finance  (dist=0.2985)
+    4. ◉ [DOC-01-C308→DOC-01] Banking & Credit Risk  (dist=0.3023)
 
-----------------------------------------------------------------------
-  [Q11] P@5=0.00  ✗ MISS
-  Q: What are the three pillars of the Basel II framework?
-  Relevant: DOC-6
-  Retrieved (rank 1→5):
-    1. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.3723)
-    2. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.3945)
-    3. ○ [DOC-12] Financial Statement Analysis  (dist=0.4152)
-    4. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.4244)
-    5. ○ [DOC-11] Monetary Policy and Central Banking  (dist=0.4278)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q13] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: How does portfolio diversification help manage market risk?
+  Relevant docs: DOC-02, DOC-05
+    1. ◉ [DOC-02-C1008→DOC-02] Portfolio Management & Asset Allocation  (dist=0.3197)
+    2. ◉ [DOC-05-C89→DOC-05] Risk Management & VaR  (dist=0.3211)
+    3. ○ [DOC-08-C1683→DOC-08] Machine Learning in Finance  (dist=0.325)
+    4. ○ [DOC-01-C68→DOC-01] Banking & Credit Risk  (dist=0.3256)
+    5. ◉ [DOC-05-C286→DOC-05] Risk Management & VaR  (dist=0.328)
 
-----------------------------------------------------------------------
-  [Q12] P@5=0.20  ✓ HIT 
-  Q: What does the Volcker Rule prohibit and under which regulation was
-     it introduced?
-  Relevant: DOC-6
-  Retrieved (rank 1→5):
-    1. ◉ [DOC-6] Regulatory Framework and Compliance  (dist=0.3744)
-    2. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.3828)
-    3. ○ [DOC-11] Monetary Policy and Central Banking  (dist=0.3842)
-    4. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.3861)
-    5. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.3924)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q14] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: What role do derivatives play in portfolio hedging strategies?
+  Relevant docs: DOC-02, DOC-04
+    1. ◉ [DOC-04-C35→DOC-04] Derivatives & Options Pricing  (dist=0.3072)
+    2. ○ [DOC-05-C1910→DOC-05] Risk Management & VaR  (dist=0.3102)
+    3. ◉ [DOC-02-C121→DOC-02] Portfolio Management & Asset Allocation  (dist=0.3116)
+    4. ◉ [DOC-04-C941→DOC-04] Derivatives & Options Pricing  (dist=0.3161)
+    4. ○ [DOC-08-C1243→DOC-08] Machine Learning in Finance  (dist=0.3254)
 
-----------------------------------------------------------------------
-  [Q13] P@5=0.00  ✗ MISS
-  Q: Explain IFRS 9 Expected Credit Loss (ECL) model and the three
-     stages of classification.
-  Relevant: DOC-6
-  Retrieved (rank 1→5):
-    1. ○ [DOC-13] Risk Management Frameworks  (dist=0.1873)
-    2. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.216)
-    3. ○ [DOC-8] Corporate Finance and Valuation  (dist=0.2164)
-    4. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.2183)
-    5. ○ [DOC-12] Financial Statement Analysis  (dist=0.2265)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q15] R@1=0  R@3=1  R@5=1  RR=0.500    rank-2 hit
+  Q: How does market liquidity affect derivative pricing?
+  Relevant docs: DOC-03, DOC-04
+    1. ○ [DOC-08-C1469→DOC-08] Machine Learning in Finance  (dist=0.3256)
+    2. ◉ [DOC-04-C1136→DOC-04] Derivatives & Options Pricing  (dist=0.326)
+    3. ○ [DOC-08-C771→DOC-08] Machine Learning in Finance  (dist=0.3319)
+    3. ○ [DOC-08-C3769→DOC-08] Machine Learning in Finance  (dist=0.3332)
+    3. ○ [DOC-08-C654→DOC-08] Machine Learning in Finance  (dist=0.3363)
 
-----------------------------------------------------------------------
-  [Q14] P@5=0.20  ✓ HIT 
-  Q: How does deposit insurance work in the U.S. and what is the FDIC
-     coverage limit?
-  Relevant: DOC-7
-  Retrieved (rank 1→5):
-    1. ◉ [DOC-7] Retail Banking Products  (dist=0.2836)
-    2. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.3029)
-    3. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.3218)
-    4. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.3241)
-    5. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.3266)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q16] R@1=0  R@3=1  R@5=1  RR=0.500    rank-2 hit
+  Q: What is the connection between trading strategies and risk
+     management?
+  Relevant docs: DOC-03, DOC-05
+    1. ○ [DOC-02-C121→DOC-02] Portfolio Management & Asset Allocation  (dist=0.2237)
+    2. ◉ [DOC-05-C1910→DOC-05] Risk Management & VaR  (dist=0.2484)
+    3. ○ [DOC-08-C1614→DOC-08] Machine Learning in Finance  (dist=0.2515)
+    4. ○ [DOC-08-C1174→DOC-08] Machine Learning in Finance  (dist=0.2568)
+    4. ○ [DOC-08-C1578→DOC-08] Machine Learning in Finance  (dist=0.2672)
 
-----------------------------------------------------------------------
-  [Q15] P@5=0.00  ✗ MISS
-  Q: What is Open Banking and which EU regulation mandated it? How has
-     it affected retail banking?
-  Relevant: DOC-7
-  Retrieved (rank 1→5):
-    1. ○ [DOC-6] Regulatory Framework and Compliance  (dist=0.3679)
-    2. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.3875)
-    3. ○ [DOC-13] Risk Management Frameworks  (dist=0.3923)
-    4. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.3968)
-    5. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.3978)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q17] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: How do option pricing models incorporate volatility forecasting?
+  Relevant docs: DOC-04, DOC-07
+    1. ◉ [DOC-04-C434→DOC-04] Derivatives & Options Pricing  (dist=0.2233)
+    2. ◉ [DOC-04-C696→DOC-04] Derivatives & Options Pricing  (dist=0.2364)
+    2. ◉ [DOC-04-C702→DOC-04] Derivatives & Options Pricing  (dist=0.2365)
+    2. ◉ [DOC-04-C597→DOC-04] Derivatives & Options Pricing  (dist=0.2541)
+    2. ◉ [DOC-04-C729→DOC-04] Derivatives & Options Pricing  (dist=0.257)
 
-----------------------------------------------------------------------
-  [Q16] P@5=0.20  ✓ HIT 
-  Q: Write out the WACC formula and explain each component including
-     cost of equity via CAPM.
-  Relevant: DOC-8
-  Retrieved (rank 1→5):
-    1. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.2671)
-    2. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.2943)
-    3. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.2996)
-    4. ◉ [DOC-8] Corporate Finance and Valuation  (dist=0.3044)
-    5. ○ [DOC-12] Financial Statement Analysis  (dist=0.3116)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q18] R@1=0  R@3=1  R@5=1  RR=0.333    rank-3 hit
+  Q: What is the relationship between VaR and stress testing
+     methodologies?
+  Relevant docs: DOC-05, DOC-14
+    1. ○ [DOC-08-C3054→DOC-08] Machine Learning in Finance  (dist=0.233)
+    2. ○ [DOC-08-C204→DOC-08] Machine Learning in Finance  (dist=0.2346)
+    2. ○ [DOC-08-C2393→DOC-08] Machine Learning in Finance  (dist=0.2355)
+    2. ○ [DOC-08-C1024→DOC-08] Machine Learning in Finance  (dist=0.2362)
+    2. ○ [DOC-08-C2284→DOC-08] Machine Learning in Finance  (dist=0.2365)
 
-----------------------------------------------------------------------
-  [Q17] P@5=0.20  ✓ HIT 
-  Q: What is the Cash Conversion Cycle (CCC) and how is it calculated?
-  Relevant: DOC-8
-  Retrieved (rank 1→5):
-    1. ◉ [DOC-8] Corporate Finance and Valuation  (dist=0.2655)
-    2. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.2742)
-    3. ○ [DOC-12] Financial Statement Analysis  (dist=0.2746)
-    4. ○ [DOC-13] Risk Management Frameworks  (dist=0.2913)
-    5. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.2973)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q20] R@1=0  R@3=1  R@5=1  RR=0.500    rank-2 hit
+  Q: What role do time series models play in risk forecasting?
+  Relevant docs: DOC-05, DOC-07
+    1. ○ [DOC-04-C1136→DOC-04] Derivatives & Options Pricing  (dist=0.2576)
+    2. ◉ [DOC-05-C751→DOC-05] Risk Management & VaR  (dist=0.2635)
+    3. ○ [DOC-02-C121→DOC-02] Portfolio Management & Asset Allocation  (dist=0.2645)
+    4. ○ [DOC-04-C941→DOC-04] Derivatives & Options Pricing  (dist=0.2761)
+    4. ○ [DOC-08-C4682→DOC-08] Machine Learning in Finance  (dist=0.2808)
 
-----------------------------------------------------------------------
-  [Q18] P@5=0.40  ✓ HIT 
-  Q: How does Discounted Cash Flow (DCF) valuation work, and what role
-     does WACC play as a discount rate?
-  Relevant: DOC-4, DOC-8
-  Retrieved (rank 1→5):
-    1. ◉ [DOC-8] Corporate Finance and Valuation  (dist=0.2812)
-    2. ◉ [DOC-4] Investment Banking and Capital Markets  (dist=0.2842)
-    3. ○ [DOC-12] Financial Statement Analysis  (dist=0.2842)
-    4. ○ [DOC-5] Derivatives and Risk Management  (dist=0.2951)
-    5. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.2989)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q21] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: How do credit risk, market risk, and operational risk interact in
+     banking?
+  Relevant docs: DOC-01, DOC-05, DOC-14
+    1. ◉ [DOC-01-C19→DOC-01] Banking & Credit Risk  (dist=0.2527)
+    2. ○ [DOC-08-C4077→DOC-08] Machine Learning in Finance  (dist=0.2909)
+    3. ◉ [DOC-05-C21→DOC-05] Risk Management & VaR  (dist=0.3128)
+    4. ◉ [DOC-01-C30→DOC-01] Banking & Credit Risk  (dist=0.3211)
+    4. ◉ [DOC-01-C20→DOC-01] Banking & Credit Risk  (dist=0.338)
 
-----------------------------------------------------------------------
-  [Q19] P@5=0.20  ✓ HIT 
-  Q: What is bond duration and how does modified duration relate to
-     interest rate sensitivity?
-  Relevant: DOC-9
-  Retrieved (rank 1→5):
-    1. ◉ [DOC-9] Fixed Income and Bond Markets  (dist=0.3069)
-    2. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.3959)
-    3. ○ [DOC-5] Derivatives and Risk Management  (dist=0.3999)
-    4. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.4013)
-    5. ○ [DOC-11] Monetary Policy and Central Banking  (dist=0.407)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q22] R@1=0  R@3=1  R@5=1  RR=0.500    rank-2 hit
+  Q: What is the relationship between portfolio theory, derivatives,
+     and risk management?
+  Relevant docs: DOC-02, DOC-04, DOC-05
+    1. ○ [DOC-08-C2531→DOC-08] Machine Learning in Finance  (dist=0.215)
+    2. ◉ [DOC-02-C121→DOC-02] Portfolio Management & Asset Allocation  (dist=0.2163)
+    3. ○ [DOC-08-C1952→DOC-08] Machine Learning in Finance  (dist=0.222)
+    3. ◉ [DOC-04-C941→DOC-04] Derivatives & Options Pricing  (dist=0.2271)
+    4. ○ [DOC-08-C3054→DOC-08] Machine Learning in Finance  (dist=0.2293)
 
-----------------------------------------------------------------------
-  [Q20] P@5=0.20  ✓ HIT 
-  Q: Explain the difference between investment-grade bonds and high-
-     yield bonds, including typical credit spread ranges.
-  Relevant: DOC-9
-  Retrieved (rank 1→5):
-    1. ◉ [DOC-9] Fixed Income and Bond Markets  (dist=0.2066)
-    2. ○ [DOC-5] Derivatives and Risk Management  (dist=0.2454)
-    3. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.2553)
-    4. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.2811)
-    5. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.2924)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q23] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: How do trading strategies, market microstructure, and machine
+     learning intersect?
+  Relevant docs: DOC-03, DOC-05, DOC-08
+    1. ◉ [DOC-08-C564→DOC-08] Machine Learning in Finance  (dist=0.1889)
+    2. ○ [DOC-02-C835→DOC-02] Portfolio Management & Asset Allocation  (dist=0.2107)
+    3. ◉ [DOC-08-C1174→DOC-08] Machine Learning in Finance  (dist=0.2109)
+    3. ◉ [DOC-08-C02→DOC-08] Machine Learning in Finance  (dist=0.2171)
+    3. ◉ [DOC-08-C3957→DOC-08] Machine Learning in Finance  (dist=0.2226)
 
-----------------------------------------------------------------------
-  [Q21] P@5=0.20  ✓ HIT 
-  Q: What does the Cost-to-Income (CIR) ratio measure for banks and
-     what is considered an efficient level?
-  Relevant: DOC-10
-  Retrieved (rank 1→5):
-    1. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.2711)
-    2. ○ [DOC-12] Financial Statement Analysis  (dist=0.316)
-    3. ○ [DOC-8] Corporate Finance and Valuation  (dist=0.3252)
-    4. ◉ [DOC-10] Financial Ratios and Analysis  (dist=0.3367)
-    5. ○ [DOC-6] Regulatory Framework and Compliance  (dist=0.3384)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q24] R@1=0  R@3=1  R@5=1  RR=0.500    rank-2 hit
+  Q: What connections exist between econometric models, risk measures,
+     and forecasting?
+  Relevant docs: DOC-05, DOC-07, DOC-08
+    1. ○ [DOC-04-C941→DOC-04] Derivatives & Options Pricing  (dist=0.2005)
+    2. ◉ [DOC-08-C992→DOC-08] Machine Learning in Finance  (dist=0.2143)
+    3. ○ [DOC-04-C732→DOC-04] Derivatives & Options Pricing  (dist=0.2197)
+    3. ◉ [DOC-08-C02→DOC-08] Machine Learning in Finance  (dist=0.2217)
+    3. ◉ [DOC-08-C904→DOC-08] Machine Learning in Finance  (dist=0.2219)
 
-----------------------------------------------------------------------
-  [Q22] P@5=0.20  ✓ HIT 
-  Q: Explain the DuPont decomposition of Return on Equity (ROE) and
-     what each component reveals.
-  Relevant: DOC-10, DOC-12
-  Retrieved (rank 1→5):
-    1. ○ [DOC-13] Risk Management Frameworks  (dist=0.2219)
-    2. ◉ [DOC-12] Financial Statement Analysis  (dist=0.2228)
-    3. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.2287)
-    4. ○ [DOC-8] Corporate Finance and Valuation  (dist=0.2297)
-    5. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.2401)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q25] R@1=0  R@3=1  R@5=1  RR=0.500    rank-2 hit
+  Q: How do behavioral biases affect portfolio decisions and market
+     efficiency?
+  Relevant docs: DOC-02, DOC-03, DOC-09
+    1. ○ [DOC-08-C3769→DOC-08] Machine Learning in Finance  (dist=0.2707)
+    2. ○ [DOC-08-C516→DOC-08] Machine Learning in Finance  (dist=0.2721)
+    2. ○ [DOC-08-C4488→DOC-08] Machine Learning in Finance  (dist=0.294)
+    2. ○ [DOC-08-C4087→DOC-08] Machine Learning in Finance  (dist=0.2959)
+    2. ○ [DOC-08-C690→DOC-08] Machine Learning in Finance  (dist=0.2972)
 
-----------------------------------------------------------------------
-  [Q23] P@5=0.00  ✗ MISS
-  Q: What is Quantitative Easing (QE) and through what channels does it
-     work to stimulate the economy?
-  Relevant: DOC-11
-  Retrieved (rank 1→5):
-    1. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.3147)
-    2. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.315)
-    3. ○ [DOC-12] Financial Statement Analysis  (dist=0.3188)
-    4. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.3238)
-    5. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.3321)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q28] R@1=0  R@3=1  R@5=1  RR=0.333    rank-3 hit
+  Q: How does M&A valuation incorporate risk assessment?
+  Relevant docs: DOC-05, DOC-06
+    1. ○ [DOC-08-C1095→DOC-08] Machine Learning in Finance  (dist=0.3854)
+    2. ○ [DOC-08-C1663→DOC-08] Machine Learning in Finance  (dist=0.3917)
+    2. ○ [DOC-08-C1616→DOC-08] Machine Learning in Finance  (dist=0.3942)
+    2. ○ [DOC-02-C286→DOC-02] Portfolio Management & Asset Allocation  (dist=0.397)
+    3. ○ [DOC-08-C1774→DOC-08] Machine Learning in Finance  (dist=0.3977)
 
-----------------------------------------------------------------------
-  [Q24] P@5=0.20  ✓ HIT 
-  Q: Describe the Taylor Rule and how it guides central bank interest
-     rate setting relative to inflation and output gaps.
-  Relevant: DOC-11
-  Retrieved (rank 1→5):
-    1. ◉ [DOC-11] Monetary Policy and Central Banking  (dist=0.2673)
-    2. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.2734)
-    3. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.2749)
-    4. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.2874)
-    5. ○ [DOC-9] Fixed Income and Bond Markets  (dist=0.2895)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q33] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: What is the connection between econometric models and machine
+     learning?
+  Relevant docs: DOC-07, DOC-08
+    1. ◉ [DOC-08-C671→DOC-08] Machine Learning in Finance  (dist=0.1882)
+    2. ◉ [DOC-08-C1189→DOC-08] Machine Learning in Finance  (dist=0.1965)
+    2. ◉ [DOC-08-C204→DOC-08] Machine Learning in Finance  (dist=0.1991)
+    2. ○ [DOC-05-C508→DOC-05] Risk Management & VaR  (dist=0.1994)
+    3. ○ [DOC-05-C595→DOC-05] Risk Management & VaR  (dist=0.1997)
 
-----------------------------------------------------------------------
-  [Q25] P@5=0.20  ✓ HIT 
-  Q: What is the Beneish M-Score and what does it detect in financial
-     statements?
-  Relevant: DOC-12
-  Retrieved (rank 1→5):
-    1. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.3063)
-    2. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.3063)
-    3. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.3079)
-    4. ○ [DOC-13] Risk Management Frameworks  (dist=0.3204)
-    5. ◉ [DOC-12] Financial Statement Analysis  (dist=0.322)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q34] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: What are the applications of machine learning in financial
+     prediction?
+  Relevant docs: DOC-08
+    1. ◉ [DOC-08-C671→DOC-08] Machine Learning in Finance  (dist=0.1873)
+    2. ◉ [DOC-08-C464→DOC-08] Machine Learning in Finance  (dist=0.2047)
+    2. ○ [DOC-05-C509→DOC-05] Risk Management & VaR  (dist=0.2344)
+    3. ○ [DOC-05-C508→DOC-05] Risk Management & VaR  (dist=0.2405)
+    3. ◉ [DOC-08-C4399→DOC-08] Machine Learning in Finance  (dist=0.2441)
 
-----------------------------------------------------------------------
-  [Q26] P@5=0.20  ✓ HIT 
-  Q: Explain DuPont analysis and how it reveals whether ROE improvement
-     is driven by margins, efficiency, or leverage.
-  Relevant: DOC-12, DOC-10
-  Retrieved (rank 1→5):
-    1. ◉ [DOC-12] Financial Statement Analysis  (dist=0.2329)
-    2. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.301)
-    3. ○ [DOC-14] Trade Finance and International Banking  (dist=0.313)
-    4. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.3147)
-    5. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.319)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q35] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: How do neural networks improve trading strategy performance?
+  Relevant docs: DOC-08
+    1. ◉ [DOC-08-C3767→DOC-08] Machine Learning in Finance  (dist=0.2865)
+    2. ○ [DOC-05-C465→DOC-05] Risk Management & VaR  (dist=0.2884)
+    3. ○ [DOC-05-C868→DOC-05] Risk Management & VaR  (dist=0.2951)
+    3. ◉ [DOC-08-C3945→DOC-08] Machine Learning in Finance  (dist=0.2989)
+    3. ○ [DOC-04-C836→DOC-04] Derivatives & Options Pricing  (dist=0.3027)
 
-----------------------------------------------------------------------
-  [Q27] P@5=0.20  ✓ HIT 
-  Q: What is Credit Valuation Adjustment (CVA) and how does it relate
-     to counterparty credit risk in derivatives?
-  Relevant: DOC-13
-  Retrieved (rank 1→5):
-    1. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.2221)
-    2. ◉ [DOC-13] Risk Management Frameworks  (dist=0.2431)
-    3. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.2564)
-    4. ○ [DOC-5] Derivatives and Risk Management  (dist=0.2724)
-    5. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.2804)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q36] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: How can ML enhance credit risk assessment in banking?
+  Relevant docs: DOC-01, DOC-08
+    1. ◉ [DOC-01-C50→DOC-01] Banking & Credit Risk  (dist=0.2388)
+    2. ◉ [DOC-01-C113→DOC-01] Banking & Credit Risk  (dist=0.2448)
+    2. ◉ [DOC-01-C102→DOC-01] Banking & Credit Risk  (dist=0.252)
+    2. ◉ [DOC-01-C121→DOC-01] Banking & Credit Risk  (dist=0.2653)
+    2. ◉ [DOC-08-C55→DOC-08] Machine Learning in Finance  (dist=0.2683)
 
-----------------------------------------------------------------------
-  [Q28] P@5=0.40  ✓ HIT 
-  Q: Explain operational risk under Basel III and identify the three
-     approaches banks use to calculate capital requirements.
-  Relevant: DOC-13, DOC-6
-  Retrieved (rank 1→5):
-    1. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.2608)
-    2. ◉ [DOC-13] Risk Management Frameworks  (dist=0.2609)
-    3. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.2705)
-    4. ◉ [DOC-6] Regulatory Framework and Compliance  (dist=0.2838)
-    5. ○ [DOC-12] Financial Statement Analysis  (dist=0.2846)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q37] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: What role does AI play in portfolio optimization and risk
+     management?
+  Relevant docs: DOC-02, DOC-05, DOC-08
+    1. ◉ [DOC-05-C1887→DOC-05] Risk Management & VaR  (dist=0.2698)
+    2. ◉ [DOC-05-C85→DOC-05] Risk Management & VaR  (dist=0.2807)
+    2. ◉ [DOC-05-C1582→DOC-05] Risk Management & VaR  (dist=0.2991)
+    2. ◉ [DOC-02-C955→DOC-02] Portfolio Management & Asset Allocation  (dist=0.3081)
+    3. ◉ [DOC-08-C3070→DOC-08] Machine Learning in Finance  (dist=0.3091)
 
-----------------------------------------------------------------------
-  [Q29] P@5=0.20  ✓ HIT 
-  Q: How does a Letter of Credit (LC) work in trade finance and what is
-     the role of a confirming bank?
-  Relevant: DOC-14
-  Retrieved (rank 1→5):
-    1. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.2802)
-    2. ○ [DOC-1] Introduction to Commercial Banking  (dist=0.3179)
-    3. ○ [DOC-15] ESG and Sustainable Finance  (dist=0.326)
-    4. ◉ [DOC-14] Trade Finance and International Banking  (dist=0.3361)
-    5. ○ [DOC-13] Risk Management Frameworks  (dist=0.3397)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q43] R@1=0  R@3=1  R@5=1  RR=0.500    rank-2 hit
+  Q: How do traditional risk management principles apply to crypto
+     markets?
+  Relevant docs: DOC-05, DOC-10
+    1. ○ [DOC-08-C1235→DOC-08] Machine Learning in Finance  (dist=0.25)
+    2. ◉ [DOC-05-C736→DOC-05] Risk Management & VaR  (dist=0.2557)
+    3. ○ [DOC-04-C550→DOC-04] Derivatives & Options Pricing  (dist=0.2588)
+    4. ○ [DOC-08-C1537→DOC-08] Machine Learning in Finance  (dist=0.2647)
+    4. ○ [DOC-08-C865→DOC-08] Machine Learning in Finance  (dist=0.266)
 
-----------------------------------------------------------------------
-  [Q30] P@5=0.20  ✓ HIT 
-  Q: What is the EU Taxonomy for Sustainable Activities and how does
-     SFDR classify investment funds under Articles 6, 8, and 9?
-  Relevant: DOC-15
-  Retrieved (rank 1→5):
-    1. ○ [DOC-4] Investment Banking and Capital Markets  (dist=0.2651)
-    2. ○ [DOC-8] Corporate Finance and Valuation  (dist=0.2895)
-    3. ○ [DOC-3] Liquidity Risk and Asset-Liability Management  (dist=0.293)
-    4. ◉ [DOC-15] ESG and Sustainable Finance  (dist=0.2981)
-    5. ○ [DOC-12] Financial Statement Analysis  (dist=0.2989)
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q46] R@1=0  R@3=1  R@5=1  RR=0.333    rank-3 hit
+  Q: How does ESG integration affect portfolio construction?
+  Relevant docs: DOC-02, DOC-11
+    1. ○ [DOC-08-C2011→DOC-08] Machine Learning in Finance  (dist=0.324)
+    2. ○ [DOC-08-C4087→DOC-08] Machine Learning in Finance  (dist=0.3382)
+    2. ○ [DOC-08-C4488→DOC-08] Machine Learning in Finance  (dist=0.3396)
+    2. ○ [DOC-08-C3348→DOC-08] Machine Learning in Finance  (dist=0.3447)
+    2. ○ [DOC-05-C981→DOC-05] Risk Management & VaR  (dist=0.3458)
 
-================================================================================
-  PER-QUESTION PRECISION SUMMARY
-================================================================================
-  Q01  [██░░░░░░░░]  0.20
-  Q02  [████░░░░░░]  0.40
-  Q03  [██░░░░░░░░]  0.20
-  Q04  [░░░░░░░░░░]  0.00
-  Q05  [██░░░░░░░░]  0.20
-  Q06  [░░░░░░░░░░]  0.00
-  Q07  [██░░░░░░░░]  0.20
-  Q08  [██░░░░░░░░]  0.20
-  Q09  [██░░░░░░░░]  0.20
-  Q10  [░░░░░░░░░░]  0.00
-  Q11  [░░░░░░░░░░]  0.00
-  Q12  [██░░░░░░░░]  0.20
-  Q13  [░░░░░░░░░░]  0.00
-  Q14  [██░░░░░░░░]  0.20
-  Q15  [░░░░░░░░░░]  0.00
-  Q16  [██░░░░░░░░]  0.20
-  Q17  [██░░░░░░░░]  0.20
-  Q18  [████░░░░░░]  0.40
-  Q19  [██░░░░░░░░]  0.20
-  Q20  [██░░░░░░░░]  0.20
-  Q21  [██░░░░░░░░]  0.20
-  Q22  [██░░░░░░░░]  0.20
-  Q23  [░░░░░░░░░░]  0.00
-  Q24  [██░░░░░░░░]  0.20
-  Q25  [██░░░░░░░░]  0.20
-  Q26  [██░░░░░░░░]  0.20
-  Q27  [██░░░░░░░░]  0.20
-  Q28  [████░░░░░░]  0.40
-  Q29  [██░░░░░░░░]  0.20
-  Q30  [██░░░░░░░░]  0.20
-
-  MEAN P@5 = 0.1733
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q49] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: How do monetary policy decisions affect banking operations?
+  Relevant docs: DOC-01, DOC-12
+    1. ◉ [DOC-01-C52→DOC-01] Banking & Credit Risk  (dist=0.3098)
+    2. ○ [DOC-08-C3769→DOC-08] Machine Learning in Finance  (dist=0.3434)
+    3. ○ [DOC-04-C23→DOC-04] Derivatives & Options Pricing  (dist=0.345)
+    4. ◉ [DOC-01-C38→DOC-01] Banking & Credit Risk  (dist=0.3478)
+    4. ○ [DOC-08-C3449→DOC-08] Machine Learning in Finance  (dist=0.3527)

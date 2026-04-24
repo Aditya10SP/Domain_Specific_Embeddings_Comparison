@@ -1,0 +1,340 @@
+================================================================================
+  EXP-09 v3 RESULTS — BGE-small-en-v1.5 (General compact)
+  Model loaded : BAAI/bge-small-en-v1.5
+  Fallback used: None
+  Chunking     : SEMANTIC | 10009 chunks from 5 docs
+
+  Recall@1 : 0.6452  (64.5%)
+  Recall@3 : 0.9677  (96.8%)
+  Recall@5 : 1.0000  (100.0%)
+  MRR      : 0.7930
+  P@5      : 0.2645
+  Generated: 2026-04-23 15:56
+================================================================================
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q01] R@1=0  R@3=1  R@5=1  RR=0.333    rank-3 hit
+  Q: What are the main approaches to measuring credit risk in banking?
+  Relevant docs: DOC-01
+    1. ○ [DOC-08-C4762→DOC-08] Machine Learning in Finance  (dist=0.2072)
+    2. ○ [DOC-08-C4644→DOC-08] Machine Learning in Finance  (dist=0.2203)
+    2. ○ [DOC-08-C4661→DOC-08] Machine Learning in Finance  (dist=0.2243)
+    2. ○ [DOC-05-C25→DOC-05] Risk Management & VaR  (dist=0.2263)
+    3. ○ [DOC-08-C4643→DOC-08] Machine Learning in Finance  (dist=0.2331)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q02] R@1=0  R@3=1  R@5=1  RR=0.333    rank-3 hit
+  Q: How do Basel regulations impact bank capital requirements?
+  Relevant docs: DOC-01
+    1. ○ [DOC-08-C2452→DOC-08] Machine Learning in Finance  (dist=0.1962)
+    2. ○ [DOC-08-C4296→DOC-08] Machine Learning in Finance  (dist=0.2138)
+    2. ○ [DOC-05-C2149→DOC-05] Risk Management & VaR  (dist=0.2428)
+    3. ○ [DOC-08-C2994→DOC-08] Machine Learning in Finance  (dist=0.2431)
+    3. ◉ [DOC-01-C256→DOC-01] Banking & Credit Risk  (dist=0.255)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q03] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: Explain the mean-variance optimization framework for portfolio
+     construction.
+  Relevant docs: DOC-02
+    1. ◉ [DOC-02-C934→DOC-02] Portfolio Management & Asset Allocation  (dist=0.1379)
+    2. ○ [DOC-05-C1818→DOC-05] Risk Management & VaR  (dist=0.1422)
+    3. ◉ [DOC-02-C437→DOC-02] Portfolio Management & Asset Allocation  (dist=0.1465)
+    3. ◉ [DOC-02-C264→DOC-02] Portfolio Management & Asset Allocation  (dist=0.1479)
+    3. ○ [DOC-05-C1798→DOC-05] Risk Management & VaR  (dist=0.1534)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q04] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: What is the Sharpe ratio and how is it used in portfolio
+     evaluation?
+  Relevant docs: DOC-02
+    1. ◉ [DOC-02-C460→DOC-02] Portfolio Management & Asset Allocation  (dist=0.1515)
+    2. ◉ [DOC-02-C859→DOC-02] Portfolio Management & Asset Allocation  (dist=0.1928)
+    2. ◉ [DOC-02-C1199→DOC-02] Portfolio Management & Asset Allocation  (dist=0.2118)
+    2. ○ [DOC-08-C967→DOC-08] Machine Learning in Finance  (dist=0.2135)
+    3. ◉ [DOC-02-C285→DOC-02] Portfolio Management & Asset Allocation  (dist=0.2153)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q07] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: Describe the Black-Scholes option pricing model and its
+     assumptions.
+  Relevant docs: DOC-04
+    1. ◉ [DOC-04-C679→DOC-04] Derivatives & Options Pricing  (dist=0.1247)
+    2. ◉ [DOC-04-C187→DOC-04] Derivatives & Options Pricing  (dist=0.1383)
+    2. ○ [DOC-05-C2144→DOC-05] Risk Management & VaR  (dist=0.1496)
+    3. ◉ [DOC-04-C486→DOC-04] Derivatives & Options Pricing  (dist=0.1654)
+    3. ○ [DOC-05-C835→DOC-05] Risk Management & VaR  (dist=0.1705)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q08] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: What are the Greeks in options trading and why are they important?
+  Relevant docs: DOC-04
+    1. ◉ [DOC-04-C36→DOC-04] Derivatives & Options Pricing  (dist=0.283)
+    2. ◉ [DOC-04-C1029→DOC-04] Derivatives & Options Pricing  (dist=0.2863)
+    2. ◉ [DOC-04-C434→DOC-04] Derivatives & Options Pricing  (dist=0.295)
+    2. ◉ [DOC-04-C1030→DOC-04] Derivatives & Options Pricing  (dist=0.295)
+    2. ◉ [DOC-04-C34→DOC-04] Derivatives & Options Pricing  (dist=0.2995)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q09] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: What is Value at Risk (VaR) and what are its limitations?
+  Relevant docs: DOC-05
+    1. ◉ [DOC-05-C1938→DOC-05] Risk Management & VaR  (dist=0.1763)
+    2. ○ [DOC-08-C2028→DOC-08] Machine Learning in Finance  (dist=0.194)
+    3. ◉ [DOC-05-C1139→DOC-05] Risk Management & VaR  (dist=0.2088)
+    3. ◉ [DOC-05-C1079→DOC-05] Risk Management & VaR  (dist=0.2251)
+    3. ◉ [DOC-05-C29→DOC-05] Risk Management & VaR  (dist=0.2252)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q10] R@1=0  R@3=1  R@5=1  RR=0.500    rank-2 hit
+  Q: Explain Conditional Value at Risk (CVaR) and how it differs from
+     VaR.
+  Relevant docs: DOC-05
+    1. ○ [DOC-08-C2941→DOC-08] Machine Learning in Finance  (dist=0.1241)
+    2. ○ [DOC-08-C2944→DOC-08] Machine Learning in Finance  (dist=0.1642)
+    2. ○ [DOC-08-C2535→DOC-08] Machine Learning in Finance  (dist=0.1803)
+    2. ◉ [DOC-05-C822→DOC-05] Risk Management & VaR  (dist=0.2039)
+    3. ◉ [DOC-05-C1070→DOC-05] Risk Management & VaR  (dist=0.2088)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q11] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: How do credit risk models relate to portfolio optimization
+     strategies?
+  Relevant docs: DOC-01, DOC-02
+    1. ◉ [DOC-02-C78→DOC-02] Portfolio Management & Asset Allocation  (dist=0.1729)
+    2. ○ [DOC-05-C1576→DOC-05] Risk Management & VaR  (dist=0.1916)
+    3. ○ [DOC-08-C1782→DOC-08] Machine Learning in Finance  (dist=0.1958)
+    4. ○ [DOC-05-C1807→DOC-05] Risk Management & VaR  (dist=0.1959)
+    4. ○ [DOC-05-C1821→DOC-05] Risk Management & VaR  (dist=0.1961)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q12] R@1=0  R@3=1  R@5=1  RR=0.500    rank-2 hit
+  Q: What is the relationship between banking regulation and systemic
+     risk?
+  Relevant docs: DOC-01, DOC-14
+    1. ○ [DOC-05-C22→DOC-05] Risk Management & VaR  (dist=0.2282)
+    2. ○ [DOC-05-C25→DOC-05] Risk Management & VaR  (dist=0.2399)
+    2. ◉ [DOC-01-C299→DOC-01] Banking & Credit Risk  (dist=0.2411)
+    3. ◉ [DOC-01-C293→DOC-01] Banking & Credit Risk  (dist=0.2534)
+    3. ◉ [DOC-01-C674→DOC-01] Banking & Credit Risk  (dist=0.2642)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q13] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: How does portfolio diversification help manage market risk?
+  Relevant docs: DOC-02, DOC-05
+    1. ◉ [DOC-05-C282→DOC-05] Risk Management & VaR  (dist=0.1362)
+    2. ◉ [DOC-05-C1821→DOC-05] Risk Management & VaR  (dist=0.1967)
+    2. ◉ [DOC-02-C1207→DOC-02] Portfolio Management & Asset Allocation  (dist=0.2188)
+    3. ◉ [DOC-05-C286→DOC-05] Risk Management & VaR  (dist=0.2196)
+    3. ◉ [DOC-05-C84→DOC-05] Risk Management & VaR  (dist=0.2213)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q14] R@1=0  R@3=1  R@5=1  RR=0.333    rank-3 hit
+  Q: What role do derivatives play in portfolio hedging strategies?
+  Relevant docs: DOC-02, DOC-04
+    1. ○ [DOC-05-C2147→DOC-05] Risk Management & VaR  (dist=0.1951)
+    2. ○ [DOC-08-C781→DOC-08] Machine Learning in Finance  (dist=0.2013)
+    3. ◉ [DOC-02-C78→DOC-02] Portfolio Management & Asset Allocation  (dist=0.2202)
+    4. ◉ [DOC-04-C104→DOC-04] Derivatives & Options Pricing  (dist=0.2212)
+    5. ◉ [DOC-04-C1159→DOC-04] Derivatives & Options Pricing  (dist=0.2275)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q15] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: How does market liquidity affect derivative pricing?
+  Relevant docs: DOC-03, DOC-04
+    1. ◉ [DOC-04-C145→DOC-04] Derivatives & Options Pricing  (dist=0.2182)
+    2. ○ [DOC-08-C1912→DOC-08] Machine Learning in Finance  (dist=0.2423)
+    3. ◉ [DOC-04-C1022→DOC-04] Derivatives & Options Pricing  (dist=0.2433)
+    3. ○ [DOC-05-C2147→DOC-05] Risk Management & VaR  (dist=0.2448)
+    4. ○ [DOC-08-C1986→DOC-08] Machine Learning in Finance  (dist=0.246)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q16] R@1=0  R@3=0  R@5=1  RR=0.250    rank-4 hit
+  Q: What is the connection between trading strategies and risk
+     management?
+  Relevant docs: DOC-03, DOC-05
+    1. ○ [DOC-08-C781→DOC-08] Machine Learning in Finance  (dist=0.2321)
+    2. ○ [DOC-04-C972→DOC-04] Derivatives & Options Pricing  (dist=0.2473)
+    3. ○ [DOC-04-C194→DOC-04] Derivatives & Options Pricing  (dist=0.2667)
+    3. ○ [DOC-04-C193→DOC-04] Derivatives & Options Pricing  (dist=0.2668)
+    3. ○ [DOC-02-C262→DOC-02] Portfolio Management & Asset Allocation  (dist=0.2688)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q17] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: How do option pricing models incorporate volatility forecasting?
+  Relevant docs: DOC-04, DOC-07
+    1. ◉ [DOC-04-C734→DOC-04] Derivatives & Options Pricing  (dist=0.164)
+    2. ◉ [DOC-04-C727→DOC-04] Derivatives & Options Pricing  (dist=0.1655)
+    2. ◉ [DOC-04-C592→DOC-04] Derivatives & Options Pricing  (dist=0.166)
+    2. ◉ [DOC-04-C679→DOC-04] Derivatives & Options Pricing  (dist=0.1781)
+    2. ◉ [DOC-04-C581→DOC-04] Derivatives & Options Pricing  (dist=0.1965)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q18] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: What is the relationship between VaR and stress testing
+     methodologies?
+  Relevant docs: DOC-05, DOC-14
+    1. ◉ [DOC-05-C322→DOC-05] Risk Management & VaR  (dist=0.2567)
+    2. ◉ [DOC-05-C392→DOC-05] Risk Management & VaR  (dist=0.263)
+    2. ◉ [DOC-05-C11→DOC-05] Risk Management & VaR  (dist=0.2706)
+    2. ◉ [DOC-05-C1829→DOC-05] Risk Management & VaR  (dist=0.2715)
+    2. ◉ [DOC-05-C1427→DOC-05] Risk Management & VaR  (dist=0.2723)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q20] R@1=0  R@3=1  R@5=1  RR=0.333    rank-3 hit
+  Q: What role do time series models play in risk forecasting?
+  Relevant docs: DOC-05, DOC-07
+    1. ○ [DOC-08-C583→DOC-08] Machine Learning in Finance  (dist=0.2091)
+    2. ○ [DOC-08-C283→DOC-08] Machine Learning in Finance  (dist=0.2119)
+    2. ○ [DOC-08-C314→DOC-08] Machine Learning in Finance  (dist=0.2179)
+    2. ○ [DOC-08-C687→DOC-08] Machine Learning in Finance  (dist=0.2181)
+    2. ○ [DOC-04-C710→DOC-04] Derivatives & Options Pricing  (dist=0.2187)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q21] R@1=0  R@3=1  R@5=1  RR=0.500    rank-2 hit
+  Q: How do credit risk, market risk, and operational risk interact in
+     banking?
+  Relevant docs: DOC-01, DOC-05, DOC-14
+    1. ○ [DOC-08-C4296→DOC-08] Machine Learning in Finance  (dist=0.1887)
+    2. ◉ [DOC-05-C21→DOC-05] Risk Management & VaR  (dist=0.1943)
+    3. ◉ [DOC-05-C411→DOC-05] Risk Management & VaR  (dist=0.2211)
+    3. ○ [DOC-08-C4076→DOC-08] Machine Learning in Finance  (dist=0.2217)
+    3. ◉ [DOC-01-C125→DOC-01] Banking & Credit Risk  (dist=0.226)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q22] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: What is the relationship between portfolio theory, derivatives,
+     and risk management?
+  Relevant docs: DOC-02, DOC-04, DOC-05
+    1. ◉ [DOC-02-C96→DOC-02] Portfolio Management & Asset Allocation  (dist=0.2108)
+    2. ◉ [DOC-02-C267→DOC-02] Portfolio Management & Asset Allocation  (dist=0.2134)
+    2. ◉ [DOC-02-C262→DOC-02] Portfolio Management & Asset Allocation  (dist=0.2172)
+    2. ◉ [DOC-04-C972→DOC-04] Derivatives & Options Pricing  (dist=0.2395)
+    3. ◉ [DOC-02-C250→DOC-02] Portfolio Management & Asset Allocation  (dist=0.2473)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q23] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: How do trading strategies, market microstructure, and machine
+     learning intersect?
+  Relevant docs: DOC-03, DOC-05, DOC-08
+    1. ◉ [DOC-08-C564→DOC-08] Machine Learning in Finance  (dist=0.1413)
+    2. ◉ [DOC-08-C613→DOC-08] Machine Learning in Finance  (dist=0.1678)
+    2. ◉ [DOC-08-C643→DOC-08] Machine Learning in Finance  (dist=0.1722)
+    2. ◉ [DOC-08-C649→DOC-08] Machine Learning in Finance  (dist=0.176)
+    2. ◉ [DOC-08-C612→DOC-08] Machine Learning in Finance  (dist=0.1761)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q24] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: What connections exist between econometric models, risk measures,
+     and forecasting?
+  Relevant docs: DOC-05, DOC-07, DOC-08
+    1. ◉ [DOC-05-C36→DOC-05] Risk Management & VaR  (dist=0.1898)
+    2. ◉ [DOC-05-C322→DOC-05] Risk Management & VaR  (dist=0.2094)
+    2. ◉ [DOC-08-C433→DOC-08] Machine Learning in Finance  (dist=0.2209)
+    3. ◉ [DOC-05-C80→DOC-05] Risk Management & VaR  (dist=0.2289)
+    3. ◉ [DOC-05-C11→DOC-05] Risk Management & VaR  (dist=0.2302)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q25] R@1=0  R@3=1  R@5=1  RR=0.500    rank-2 hit
+  Q: How do behavioral biases affect portfolio decisions and market
+     efficiency?
+  Relevant docs: DOC-02, DOC-03, DOC-09
+    1. ○ [DOC-05-C1808→DOC-05] Risk Management & VaR  (dist=0.2065)
+    2. ◉ [DOC-02-C418→DOC-02] Portfolio Management & Asset Allocation  (dist=0.2205)
+    3. ○ [DOC-05-C1816→DOC-05] Risk Management & VaR  (dist=0.2212)
+    3. ○ [DOC-05-C1824→DOC-05] Risk Management & VaR  (dist=0.2222)
+    3. ○ [DOC-05-C1852→DOC-05] Risk Management & VaR  (dist=0.2289)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q28] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: How does M&A valuation incorporate risk assessment?
+  Relevant docs: DOC-05, DOC-06
+    1. ◉ [DOC-05-C1417→DOC-05] Risk Management & VaR  (dist=0.2526)
+    2. ○ [DOC-08-C1785→DOC-08] Machine Learning in Finance  (dist=0.2632)
+    3. ○ [DOC-08-C4296→DOC-08] Machine Learning in Finance  (dist=0.2646)
+    3. ○ [DOC-02-C711→DOC-02] Portfolio Management & Asset Allocation  (dist=0.2703)
+    4. ○ [DOC-08-C1394→DOC-08] Machine Learning in Finance  (dist=0.2764)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q33] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: What is the connection between econometric models and machine
+     learning?
+  Relevant docs: DOC-07, DOC-08
+    1. ◉ [DOC-08-C3871→DOC-08] Machine Learning in Finance  (dist=0.1858)
+    2. ◉ [DOC-08-C588→DOC-08] Machine Learning in Finance  (dist=0.2161)
+    2. ◉ [DOC-08-C414→DOC-08] Machine Learning in Finance  (dist=0.2172)
+    2. ◉ [DOC-08-C612→DOC-08] Machine Learning in Finance  (dist=0.2203)
+    2. ◉ [DOC-08-C599→DOC-08] Machine Learning in Finance  (dist=0.2327)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q34] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: What are the applications of machine learning in financial
+     prediction?
+  Relevant docs: DOC-08
+    1. ◉ [DOC-08-C4762→DOC-08] Machine Learning in Finance  (dist=0.1654)
+    2. ◉ [DOC-08-C564→DOC-08] Machine Learning in Finance  (dist=0.1777)
+    2. ◉ [DOC-08-C4778→DOC-08] Machine Learning in Finance  (dist=0.182)
+    2. ◉ [DOC-08-C649→DOC-08] Machine Learning in Finance  (dist=0.1824)
+    2. ◉ [DOC-08-C612→DOC-08] Machine Learning in Finance  (dist=0.1872)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q35] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: How do neural networks improve trading strategy performance?
+  Relevant docs: DOC-08
+    1. ◉ [DOC-08-C564→DOC-08] Machine Learning in Finance  (dist=0.1856)
+    2. ◉ [DOC-08-C3062→DOC-08] Machine Learning in Finance  (dist=0.2265)
+    2. ◉ [DOC-08-C429→DOC-08] Machine Learning in Finance  (dist=0.2271)
+    2. ◉ [DOC-08-C638→DOC-08] Machine Learning in Finance  (dist=0.2289)
+    2. ◉ [DOC-08-C612→DOC-08] Machine Learning in Finance  (dist=0.2319)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q36] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: How can ML enhance credit risk assessment in banking?
+  Relevant docs: DOC-01, DOC-08
+    1. ◉ [DOC-08-C4762→DOC-08] Machine Learning in Finance  (dist=0.1498)
+    2. ◉ [DOC-08-C4778→DOC-08] Machine Learning in Finance  (dist=0.1845)
+    2. ◉ [DOC-08-C4759→DOC-08] Machine Learning in Finance  (dist=0.1876)
+    2. ◉ [DOC-08-C4643→DOC-08] Machine Learning in Finance  (dist=0.191)
+    2. ◉ [DOC-01-C32→DOC-01] Banking & Credit Risk  (dist=0.1972)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q37] R@1=0  R@3=1  R@5=1  RR=0.500    rank-2 hit
+  Q: What role does AI play in portfolio optimization and risk
+     management?
+  Relevant docs: DOC-02, DOC-05, DOC-08
+    1. ○ [DOC-01-C102→DOC-01] Banking & Credit Risk  (dist=0.2025)
+    2. ◉ [DOC-05-C1576→DOC-05] Risk Management & VaR  (dist=0.213)
+    3. ◉ [DOC-05-C1807→DOC-05] Risk Management & VaR  (dist=0.2149)
+    3. ◉ [DOC-08-C613→DOC-08] Machine Learning in Finance  (dist=0.2193)
+    4. ◉ [DOC-08-C559→DOC-08] Machine Learning in Finance  (dist=0.22)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q43] R@1=0  R@3=1  R@5=1  RR=0.500    rank-2 hit
+  Q: How do traditional risk management principles apply to crypto
+     markets?
+  Relevant docs: DOC-05, DOC-10
+    1. ○ [DOC-08-C4296→DOC-08] Machine Learning in Finance  (dist=0.2597)
+    2. ◉ [DOC-05-C1904→DOC-05] Risk Management & VaR  (dist=0.2625)
+    3. ○ [DOC-04-C779→DOC-04] Derivatives & Options Pricing  (dist=0.2648)
+    4. ◉ [DOC-05-C2161→DOC-05] Risk Management & VaR  (dist=0.265)
+    4. ◉ [DOC-05-C25→DOC-05] Risk Management & VaR  (dist=0.265)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q46] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: How does ESG integration affect portfolio construction?
+  Relevant docs: DOC-02, DOC-11
+    1. ◉ [DOC-02-C1180→DOC-02] Portfolio Management & Asset Allocation  (dist=0.2305)
+    2. ◉ [DOC-02-C1168→DOC-02] Portfolio Management & Asset Allocation  (dist=0.2366)
+    2. ○ [DOC-05-C1798→DOC-05] Risk Management & VaR  (dist=0.2459)
+    3. ◉ [DOC-02-C418→DOC-02] Portfolio Management & Asset Allocation  (dist=0.2489)
+    3. ○ [DOC-05-C1438→DOC-05] Risk Management & VaR  (dist=0.2572)
+
+ -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+  [Q49] R@1=1  R@3=1  R@5=1  RR=1.000  ★ RANK-1 HIT
+  Q: How do monetary policy decisions affect banking operations?
+  Relevant docs: DOC-01, DOC-12
+    1. ◉ [DOC-01-C674→DOC-01] Banking & Credit Risk  (dist=0.2666)
+    2. ◉ [DOC-01-C145→DOC-01] Banking & Credit Risk  (dist=0.2811)
+    2. ◉ [DOC-01-C17→DOC-01] Banking & Credit Risk  (dist=0.2913)
+    2. ◉ [DOC-01-C116→DOC-01] Banking & Credit Risk  (dist=0.2931)
+    2. ◉ [DOC-01-C59→DOC-01] Banking & Credit Risk  (dist=0.2936)
